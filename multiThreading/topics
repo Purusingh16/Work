@@ -1,0 +1,34 @@
+Introduction
+
+the ways to define a thread
+1.By extending thread class
+2.By Implementing Runnable Interface(I)
+
+Getting and setting name of thread
+thread Priorities
+
+The method to prevent thread Execution
+1.yield()
+2.join()
+3.sleep()
+
+synchronization
+
+Inter thread communication
+
+Deadlock
+
+Deamon Threads
+
+multithreading enhancements
+
+================================================================================
+1.what is synchronized keyword and where we can use?
+==>it is a keyword,it is applicable on method and block but not for variable and classes.
+2.explain advantage of synchronized keyword?
+==>we can resolve data incontency problem.
+3.disadvantage of synchronized keyword?
+==>it creates increasing time of thread and creates performence problem.
+4.what is race conditions?
+===>multiple thread are operating  simultaneously on same java object then there may be a chance of data encontency 
+problem this is called race condition.we can over come this problem by synchronized keywords.

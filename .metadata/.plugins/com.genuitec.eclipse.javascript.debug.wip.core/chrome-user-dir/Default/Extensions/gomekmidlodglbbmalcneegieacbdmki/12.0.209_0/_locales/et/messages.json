@@ -1,0 +1,535 @@
+{
+   "InternalTabs": {
+      "message": "Sa ei saa hinnata kohalikke faile või seesmisi lehti"
+   },
+   "VoteThank": {
+      "message": "Täname! Sinu hääl on edukalt salvestatud."
+   },
+   "anonymousUser": {
+      "message": "Anonüümne kasutaja"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Ava Avast SafeZone"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "Ava SafeZone"
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "Rohkem teavet"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Avasti soovitus: SafeZone'i brauser blokeerib reklaamid, et kaitsta sind jälitusküpsiste ja pahavara levitavate reklaamide eest."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "Tee veebimakseid turvaliselt kasutades selle asemel Avast SafeZone'i brauserit."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "Kasuta parimaid pakkumisi ja maksa nende eest turvaliselt Avast SafeZone'i brauseriga."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "Kas sa teadsid, et videoid saab mugavalt alla laadida voogedastusega lehtedelt?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "Ära seda teadet enam kuva"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "Online turvalisus"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Luba kõik jälitamise süsteemid"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "kõikidel veebilehtedel"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Blokeeri kõik jälitamise süsteemid"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "Üldised seaded"
+   },
+   "baMoreSettingsAction": {
+      "message": "Rohkem seadeid"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "lubatud"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "keelatud"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "Jälitamise süsteemid on hetkel"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "on veebilehel"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "jälitamise süsteemi"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "Hindasid seda süsteemi"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "negatiivselt"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "positiivselt"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "castYourVote": {
+      "message": "Anna oma hinnang"
+   },
+   "checkAll": {
+      "message": "(Vali kõik, mis sobivad)"
+   },
+   "close": {
+      "message": "Sulge"
+   },
+   "corporate": {
+      "message": "Ettevõte"
+   },
+   "currentVote": {
+      "message": "Üldine reiting"
+   },
+   "detailsHeadline": {
+      "message": "Avast on seda lehte kontrollinud"
+   },
+   "detailsMalwareNo": {
+      "message": "Pahavara ei leitud"
+   },
+   "detailsMalwareYes": {
+      "message": "Tuvastati pahavara!"
+   },
+   "detailsPhishingNo": {
+      "message": "Õngitsemist ei leitud"
+   },
+   "detailsPhishingYes": {
+      "message": "Tuvastati õngitsemine!"
+   },
+   "disabledTab": {
+      "message": "Sa ei saa hinnata kohalikke faile või seesmisi lehti"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "Reklaam"
+   },
+   "dntAllowGroupAction": {
+      "message": "Luba kõik"
+   },
+   "dntAllowTrackerAction": {
+      "message": "Luba"
+   },
+   "dntAllowed": {
+      "message": "lubati"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "Jälgijate automaatne blokeerimine: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "Mitteaktiivne"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "Aktiivne"
+   },
+   "dntBlockGroupAction": {
+      "message": "Blokeeri kõik"
+   },
+   "dntBlockTrackerAction": {
+      "message": "Blokeeri"
+   },
+   "dntBlocked": {
+      "message": "blokeeriti"
+   },
+   "dntHeadline": {
+      "message": "%s ettevõtet üritas sind jälgida"
+   },
+   "dntNetworks": {
+      "message": "Võrgustikud"
+   },
+   "dntNetworksDetected": {
+      "message": "%s sotsiaalvõrku tuvastati"
+   },
+   "dntOthersNetworks": {
+      "message": "Muud"
+   },
+   "dntSocialNetworks": {
+      "message": "Sotsiaalvõrgustikud"
+   },
+   "dntStatusAllAllowed": {
+      "message": "Kõik lubatud"
+   },
+   "dntStatusAllBlocked": {
+      "message": "Kõik blokeeritud"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "Blokeeritud"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "Mõned blokeeritud"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "Veebianalüütika"
+   },
+   "drugs": {
+      "message": "Alkohol / Uimastid"
+   },
+   "error": {
+      "message": "Viga"
+   },
+   "errorUnexpected": {
+      "message": "Tundmatu viga"
+   },
+   "gambling": {
+      "message": "Hasartmängud"
+   },
+   "howLike": {
+      "message": "Kuidas sulle see lehekülg meeldib?"
+   },
+   "illegal": {
+      "message": "Warez / Illegaalne"
+   },
+   "it": {
+      "message": "IT / Allalaadimine"
+   },
+   "loginAnonymous": {
+      "message": "Anonüümse kasutajana"
+   },
+   "loginDesc": {
+      "message": "Täida oma my.avast.com konto logimisandmed:"
+   },
+   "loginError": {
+      "message": "Sisselogimine ebaõnnestus"
+   },
+   "loginLogin": {
+      "message": "Logi sisse"
+   },
+   "loginLogout": {
+      "message": "Logi välja"
+   },
+   "loginName": {
+      "message": "Nimi:"
+   },
+   "loginPswd": {
+      "message": "Parool:"
+   },
+   "malwareNext": {
+      "message": "Laadi alla Avast Free Antivirus"
+   },
+   "malwareSite": {
+      "message": "See veebileht oleks võinud sinu arvutile kahju tekitada."
+   },
+   "malwareSiteRec": {
+      "message": "Soovitame paigaldada Avast antiviiruse ja oma arvutit kontrollida."
+   },
+   "news": {
+      "message": "Uudised / Blogi"
+   },
+   "noRating": {
+      "message": "Sellel leheküljel puudub reiting"
+   },
+   "noWeight": {
+      "message": "(pole piisavalt hääli)"
+   },
+   "others": {
+      "message": "Muud"
+   },
+   "phishingBack": {
+      "message": "Aita mind siit minema"
+   },
+   "phishingClose": {
+      "message": "Eira hoiatust"
+   },
+   "phishingCreditNumber": {
+      "message": "Paistab, et oled sisestamas parooli või krediitkaardi andmeid leheküljele, mille reputatsioon on kehv. Palun veendu, et lehekülg on ikka ehtne. Personaalse informatsiooni sisestamine taolistel ebaturvalistel lehekülgedel võib tõsta turvariski."
+   },
+   "phishingDesc": {
+      "message": "Õngitsemine on püüd omandada tundlikku teavet nagu kasutajanimed, paroolid ja krediitkaardi andmed..."
+   },
+   "phishingPhishingSite": {
+      "message": "See lehekülg on märgitud õngitsemisleheküljeks."
+   },
+   "phishingTrust": {
+      "message": "Usaldan seda veebilehte"
+   },
+   "phishingWarning": {
+      "message": "Hoiatus"
+   },
+   "pornography": {
+      "message": "Pornograafia"
+   },
+   "ratingAverage": {
+      "message": "Sellel leheküljel on keskmine reiting"
+   },
+   "ratingBad": {
+      "message": "Sellel leheküljel on halb reiting"
+   },
+   "ratingCommunity": {
+      "message": "%s kommuuni reiting"
+   },
+   "ratingDone": {
+      "message": "Valmis"
+   },
+   "ratingGood": {
+      "message": "Sellel leheküljel on hea reiting"
+   },
+   "ratingLevelAverage": {
+      "message": "Keskmine"
+   },
+   "ratingLevelBad": {
+      "message": "Kehv"
+   },
+   "ratingLevelPositive": {
+      "message": "Positiivne"
+   },
+   "ratingLevelUndefined": {
+      "message": "Puudub"
+   },
+   "ratingNegative": {
+      "message": "Miks sa hindasid lehekülge negatiivselt?"
+   },
+   "ratingNoRate": {
+      "message": "Ma ei soovi praegu hinnata"
+   },
+   "ratingPending": {
+      "message": "Hangin reitingut"
+   },
+   "ratingPositive": {
+      "message": "Miks sa hindasid lehekülge positiivselt?"
+   },
+   "ratingRate": {
+      "message": "Kuidas hindaksid oma kogemust sellel leheküljel?"
+   },
+   "ratingTextAverage": {
+      "message": "sellel lehel on kehv maine"
+   },
+   "ratingTextBad": {
+      "message": "see leht on ohtlik"
+   },
+   "ratingTextPositive": {
+      "message": "see leht on turvaline"
+   },
+   "ratingTextUndefined": {
+      "message": "tundmatu leht"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "Võta tagasi"
+   },
+   "safeZoneDecline": {
+      "message": "Ära paku SafeZone lehel "
+   },
+   "safeZoneDesc": {
+      "message": "Avast soovitab seda lehekülge SafeZone's külastada"
+   },
+   "safeZoneFeedback": {
+      "message": "Sinu kindlustunde huvides avati soovitud veebileht SafeZone's"
+   },
+   "safeZoneNo": {
+      "message": "Ei"
+   },
+   "safeZoneYes": {
+      "message": "Ava SafeZone"
+   },
+   "settingsReset": {
+      "message": "Taasta vaikeseaded"
+   },
+   "settingsSave": {
+      "message": "Salvesta"
+   },
+   "settingscommunityIQ": {
+      "message": "Andmete ühiskasutus"
+   },
+   "settingscommunityIQDesc": {
+      "message": "Selle võimaluse aktiveerimisega annad oma nõusoleku teatud andmete anonüümseks edastamiseks Avastile. Meil on õigus jagada anonümiseeritud teavet kolmandate pooltega."
+   },
+   "settingsdnt": {
+      "message": "Ära jälita"
+   },
+   "settingsdnt0": {
+      "message": "Privaatsuskilp"
+   },
+   "settingsdnt2": {
+      "message": "Ära jälita"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "Blokeeri reklaame automaatselt"
+   },
+   "settingsdntDesc": {
+      "message": "Tuvastab ja blokeerib soovimatut reklaami ning hoiab ära sinu jälgimise internetis."
+   },
+   "settingsdntOthersDesc": {
+      "message": "Blokeeri muud automaatselt"
+   },
+   "settingsdntSocialDesc": {
+      "message": "Blokeeri sotsiaalvõrgustikke automaatselt"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "Blokeeri veebianalüütikat automaatselt"
+   },
+   "settingsphishing": {
+      "message": "Õngitsemise vastane kaitse"
+   },
+   "settingsphishing0": {
+      "message": "Surfikilp"
+   },
+   "settingsphishing2": {
+      "message": "Õngitsemise vastane kaitse"
+   },
+   "settingsphishingDesc": {
+      "message": "Kontrollib veebilehti pahavara suhtes ja kaitseb õngitsemise eest"
+   },
+   "settingssafeZone": {
+      "message": "SafeZone"
+   },
+   "settingssafeZoneDesc": {
+      "message": "Lülitu automaatselt SafeZone'sse ümber, kui külastatakse internetipanka (Avast antiviirus peab olema paigaldatud)"
+   },
+   "settingsserp": {
+      "message": "Otsingumootori tulemused"
+   },
+   "settingsserpDesc": {
+      "message": "Luba otsingutulemuste lehel värvid"
+   },
+   "settingsserpPopupDesc": {
+      "message": "Luba otsingutulemuste lehel hüpikaknad"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteCorrect"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "Ära kuva teateid, vaid suuna automaatselt õigele lehele"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "Tuvastab ja parandab valesti kirjutatud URL'id ning suunab õigele lehele"
+   },
+   "sfzoneAlways": {
+      "message": "Jah, alati"
+   },
+   "sfzoneDesc": {
+      "message": "Sisenesid internetipanga lehele. Soovid sa seda Avast SafeZones avada?"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast SafeZone"
+   },
+   "sfzoneNever": {
+      "message": "Mitte kunagi"
+   },
+   "sfzoneNo": {
+      "message": "Ei"
+   },
+   "sfzoneSwitch": {
+      "message": "Mine Avast SafeZone'i"
+   },
+   "sfzoneYes": {
+      "message": "Jah"
+   },
+   "shopping": {
+      "message": "Ostmine"
+   },
+   "sideDashboard": {
+      "message": "Minu Avast"
+   },
+   "sideDetails": {
+      "message": "Rohkem teavet"
+   },
+   "sideRate": {
+      "message": "Hinda lehte"
+   },
+   "sideSettings": {
+      "message": "Seaded"
+   },
+   "sitecorrectAuto": {
+      "message": "Nüüdsest vii mind automaatselt õigetele veebilehtedele"
+   },
+   "sitecorrectBarButton": {
+      "message": "See polnud viga, vii mind tagasi"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: suunan automaatselt ümber lehelt %s"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "Avast SiteCorrect seadete muutmiseks ava Avast'i kasutajaliides - Lisakaitse - Brauseri kaitse ning kliki nupul 'Seaded'."
+   },
+   "sitecorrectMean": {
+      "message": "Ehk mõtlesid %s ?"
+   },
+   "sitecorrectNo": {
+      "message": "Ei, ma mõtlesin %s"
+   },
+   "sitecorrectText": {
+      "message": "Tõenäoliselt pole see lehekülg, mida külastata soovisid."
+   },
+   "sitecorrectYes": {
+      "message": "Jah"
+   },
+   "social": {
+      "message": "Sotsiaal / Mängud"
+   },
+   "thanksHeadline": {
+      "message": "Täname hindamise eest!"
+   },
+   "thanksMessage": {
+      "message": "Sinu arvamus on saadetud."
+   },
+   "title": {
+      "message": "Avast Online Security seaded"
+   },
+   "topBarDetails": {
+      "message": "Vaata detaile"
+   },
+   "topBarRatingAverage": {
+      "message": "%s omab head hinnangut"
+   },
+   "topBarRatingBad": {
+      "message": "%s omab ohtlikku hinnangut"
+   },
+   "topBarRatingGood": {
+      "message": "%s omab turvalist hinnangut"
+   },
+   "violence": {
+      "message": "Relvad / Vägivald"
+   },
+   "vote": {
+      "message": "Hinda"
+   },
+   "voteNegative": {
+      "message": "negatiivne"
+   },
+   "votePositive": {
+      "message": "positiivne"
+   },
+   "webrepDisabled": {
+      "message": "WebRep on väljalülitatud"
+   },
+   "weight1": {
+      "message": "(põhineb väiksel häälte arvul)"
+   },
+   "weight2": {
+      "message": "(põhineb limiteeritud häälte arvul)"
+   },
+   "weight3": {
+      "message": "(põhineb paljudel häältel)"
+   },
+   "whatTypeContent": {
+      "message": "Millist sisu see lehekülg endas sisaldab?"
+   }
+}

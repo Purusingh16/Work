@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;javaOffMgmtAppPolymorphism/src/polymorphism&apos;&#x0D;&#x0A;- Original project: &apos;javaOffMgmtAppInhritence&apos;&#x0D;&#x0A;- Destination element: &apos;javaOffMgmtAppPolymorphism/src/polymorphism&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     oops.Employee.java&#x0D;&#x0A;     oops.SalesPerson.java&#x0D;&#x0A;     oops.Manager.java&#x0D;&#x0A;     oops.Engineer.java" description="Copy compilation units" destination="=javaOffMgmtAppPolymorphism/src&lt;polymorphism" element1="/src&lt;oops{Employee.java" element2="/src&lt;oops{SalesPerson.java" element3="/src&lt;oops{Manager.java" element4="/src&lt;oops{Engineer.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1475899077033" units="4" version="1.0"/>
+</session>

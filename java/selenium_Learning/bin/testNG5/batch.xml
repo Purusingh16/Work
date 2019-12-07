@@ -1,0 +1,21 @@
+<suite name="Batch execution">
+<test name="f results">
+<classes>
+<class name="testNG5.verifyAlert">
+<methods>
+<includes name="f"></includes>
+</methods>
+</class>
+</classes>
+</test>
+<test name="popup results">
+<classes>
+<class name="testNG5.verifyAlert">
+<methods>
+<includes name="f"></includes>
+<includes name="verify_PopUp"></includes>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

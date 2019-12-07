@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+<test name="Test">
+<parameter name="browser" value="firefox"/>
+  <classes>
+     <!--   <class name="testScripts.TestCreate_an_accountPape"/>-->
+        <class name="testScripts.TestTshirtPage"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,106 @@
+{
+   "safeShopBestButtonNextOffer": {
+      "message": "پیشنهاد بعدی %s در %s"
+   },
+   "safeShopBestButtonSave": {
+      "message": "صرفه جویی %s %s در %s"
+   },
+   "safeShopBestTitleBestHere": {
+      "message": "بهترین پیشنهاد در اینجا!"
+   },
+   "safeShopBestTitleCheaperFound": {
+      "message": "قیمت های پایین تری یافت شد!"
+   },
+   "safeShopCoupons": {
+      "message": "%s کوپن"
+   },
+   "safeShopOffers": {
+      "message": "%s پیشنهاد که از %s شروع می شود"
+   },
+   "sasClickToCopy": {
+      "message": "کلیک برای کپی کردن"
+   },
+   "sasCouponCodeCopied": {
+      "message": "کد در کلیپ بورد کپی شد."
+   },
+   "sasCouponCodeTitle": {
+      "message": "کد کوپن"
+   },
+   "sasCouponInstructionsTitle": {
+      "message": "دستورالعمل هایی برای بازپرداخت کوپن"
+   },
+   "sasCouponsSaving": {
+      "message": "صرفه جویی تا %s"
+   },
+   "sasCouponsTitle": {
+      "message": "%s کوپن موجود است!"
+   },
+   "sasHintBestOffer": {
+      "message": "بهترین پیشنهاد"
+   },
+   "sasHintBestOfferDesc": {
+      "message": "یکراست برو به سوی بهترین قیمت برای این محصول."
+   },
+   "sasHintCoupons": {
+      "message": "دیدن کوپن ها"
+   },
+   "sasHintCouponsDesc": {
+      "message": "دیدن و ذخیره ی کوپن ها"
+   },
+   "sasHintOtherOffers": {
+      "message": "مقایسه ی قیمت ها"
+   },
+   "sasHintOtherOffersDesc": {
+      "message": "دیدن سایر پیشنهاد های قابل مقایسه"
+   },
+   "sasHintSettings": {
+      "message": "تنظیمات"
+   },
+   "sasHintSettingsDesc": {
+      "message": "شخصی سازی تنظیمات"
+   },
+   "sasNoCouponCode": {
+      "message": "نیازی به کد نیست"
+   },
+   "sasOptionsDisableAll": {
+      "message": "SafePrice در همه ی سایت ها تا 24 ساعت غیرفعال باشد"
+   },
+   "sasOptionsDisableOnSite": {
+      "message": "SafePrice در %s تا 24 ساعت غیر فعال باشد"
+   },
+   "sasOptionsEnableAll": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for all domains",
+      "message": "فعال‌سازی SafePrice در همه سایت‌ها"
+   },
+   "sasOptionsEnableOnSite": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for one domain. %s: name of the domain",
+      "message": "فعال‌سازی SafePrice در %s"
+   },
+   "sasOptionsNeverShowOnSite": {
+      "message": "هرگز کوپن ها را در این سایت نشان نده %s"
+   },
+   "sasProductName": {
+      "message": "SafePrice"
+   },
+   "sasPromoAction": {
+      "message": "انگار خوب است. پیام را ببند!"
+   },
+   "sasPromoDescription": {
+      "message": "SafePrice بهترین قیمت های موجود را برای محصول مورد نیازتان می یابد. در مرورگر تان قیمت ها را بررسی کنید، فروشگاه ها را مقایسه کنید، خوشنامی فروشنده را ارزیابی کنید، ویدیوی محصول را ببینید، و کوپن دریافت کنید."
+   },
+   "sasPromoNewBadge": {
+      "message": "جدید"
+   },
+   "sasPromoOptout": {
+      "message": "SafePrice غیر فعال باشد"
+   },
+   "sasRecommendedOfferMessage": {
+      "message": "توصیه شده"
+   },
+   "sasRecommendedOfferTitle": {
+      "message": "این فروشنده مطمئن، قیمت های مناسب، نظرسنجی و خدمات با کیفیت است."
+   },
+   "sasShippingLabel": {
+      "message": "هزینه ی ارسال/رسیدگی از"
+   }
+}

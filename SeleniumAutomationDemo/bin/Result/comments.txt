@@ -1,0 +1,148 @@
+/****************************************************************************************************
+### Class NAME  	: Driver
+### AUTHOR			: Dhananjay Nagawade and Devesh Mishra
+### CREATED ON		: DD/MM/YY
+### PURPOSE			: The Class is built to driver execution of test case on specific machine.
+### DATE REVIEWED	:
+### REVIEWED BY		:
+### UPDATED BY		: Dhananjay Nagawade and Devesh Mishra
+### LAST UPDATED	: 26/11/2013
+******************************************************************************************************/
+
+	/****************************************************************************************************
+	### Function NAME   : cfnDriver
+	### AUTHOR	    	: Devesh Mishra
+	### CREATED ON	    : DD/MM/YY
+	### PURPOSE			: The aim of function is to Initialize WebDriver with specified setting and call Script function of Pespective TestCase Class 
+	### INPUT			: TestCase Name, Machine Address
+	### OUTPUT			: NULL
+	### DATE REVIEWED	:
+	### REVIEWED BY		:
+	### UPDATED BY		: Dhananjay Nagawade and Devesh Mishra
+	### LAST UPDATED	: 26/11/2013
+	******************************************************************************************************/
+
+	/****************************************************************************************************
+	### Function NAME   : cfnDriver
+	### AUTHOR	  		: Devesh Mishra
+	### CREATED ON	    : DD/MM/YY
+	### PURPOSE			: The aim of function is to Initialize WebDriver with specified setting and call Script function of Pespective TestCase Class for Compatibility 
+	### INPUT			: TestCase Name, Machine Address
+	### OUTPUT			: NULL
+	### DATE REVIEWED	:
+	### REVIEWED BY		:
+	### UPDATED BY		: Devesh Mishra
+	### LAST UPDATED	: 26/03/2013
+	******************************************************************************************************/
+
+/****************************************************************************************************
+### Class NAME  	: MachineThread
+### AUTHOR			: Dhananjay Nagawade and Devesh Mishra
+### CREATED ON		: DD/MM/YY
+### PURPOSE			: The Class is built to create multiple threads to execute various testcases on multiple machine. One Object owns one DriverClass Object
+### DATE REVIEWED	:
+### REVIEWED BY		:
+### UPDATED BY		: Dhananjay Nagawade and Devesh Mishra
+### LAST UPDATED	: 26/11/2013
+ ******************************************************************************************************/
+	/****************************************************************************************************
+	### Function NAME   : run
+	### AUTHOR			: Dhananjay Nagawade and Devesh Mishra
+	### CREATED ON		: DD/MM/YY
+	### PURPOSE			: The aim of function is to Initialize Driver class object with respective  TestCase Name and Machine Address
+	### INPUT			: TestCase Name, Machine Address
+	### OUTPUT			: NULL
+	### DATE REVIEWED	:
+	### REVIEWED BY		:
+	### UPDATED BY		: Dhananjay Nagawade and Devesh Mishra
+	### LAST UPDATED	: 26/11/2013
+	 ******************************************************************************************************/ 
+	 
+	 
+/****************************************************************************************************
+### Class NAME  	: StartUp
+### AUTHOR		: Dhananjay Nagawade and Devesh Mishra
+### CREATED ON		: DD/MM/YY
+### PURPOSE		: The Class is built to start execution of Selenium Automation Framework this class reads .xls files and execute respective testcases 
+### DATE REVIEWED	:
+### REVIEWED BY		:
+### UPDATED BY		: Dhananjay Nagawade and Devesh Mishra
+### LAST UPDATED	: 26/11/2013
+ ******************************************************************************************************/
+
+
+/****************************************************************************************************
+### Class NAME  	: ExcelDataPoolManager
+### AUTHOR			: Rahul Warkhedkar
+### CREATED ON		: DD/MM/YY
+### PURPOSE			: The Class is built to access the functionality of excell in java
+### DATE REVIEWED	:
+### REVIEWED BY		:
+### UPDATED BY		: Rahul Warkhedkar
+### LAST UPDATED	: 26/04/2016
+******************************************************************************************************/
+
+/****************************************************************************************************
+### Class NAME  	: ExceptionHandler
+### AUTHOR			: Rahul Warkhedkar
+### CREATED ON		: DD/MM/YY
+### PURPOSE			: The Class is built to Handle Runtime exceptions.
+### DATE REVIEWED	:
+### REVIEWED BY		:
+### UPDATED BY		: Rahul Warkhedkar
+### LAST UPDATED	: 26/04/2016
+******************************************************************************************************/
+
+/****************************************************************************************************
+### Class NAME  	: GLOBAL
+### AUTHOR			: Rahul Warkhedkar
+### CREATED ON		: DD/MM/YY
+### PURPOSE			: The Class is built to Initialise and assign The global variable
+### DATE REVIEWED	:
+### REVIEWED BY		:
+### UPDATED BY		: Rahul Warkhedkar
+### LAST UPDATED	: 26/11/2016
+******************************************************************************************************/
+
+	/****************************************************************************************************
+	### Function NAME   : cfnRootPath
+	### AUTHOR			: Rahul Warkhedkar
+	### CREATED ON		: DD/MM/YY
+	### PURPOSE			: The aim of function is to Initialise all the root path variable. 
+	### INPUT			: NULL
+	### OUTPUT			: NULL
+	### DATE REVIEWED	:
+	### REVIEWED BY		:
+	### UPDATED BY		: Rahul Warkhedkar
+	### LAST UPDATED	: 26/11/2016
+	******************************************************************************************************/
+
+
+	/****************************************************************************************************
+	### Function NAME   : cfnModuleRootPath
+	### AUTHOR			: Rahul Warkhedkar
+	### CREATED ON		: DD/MM/YY
+	### PURPOSE			: The aim of function is to Initialise all the Module Specific path variable. 
+	### INPUT			: NULL
+	### OUTPUT			: NULL
+	### DATE REVIEWED	:
+	### REVIEWED BY		:
+	### UPDATED BY		: Rahul Warkhedkar
+	### LAST UPDATED	: 26/11/2016
+	******************************************************************************************************/
+
+
+	
+	/****************************************************************************************************
+	### Function NAME   : cfnConfigDeclaration
+	### AUTHOR			: Rahul Warkhedkar
+	### CREATED ON		: DD/MM/YY
+	### PURPOSE			: The aim of function is to Assign all values to different script variable 
+	### INPUT			: NULL
+	### OUTPUT			: NULL
+	### DATE REVIEWED	:
+	### REVIEWED BY		:
+	### UPDATED BY		: Rahul Warkhedkar
+	### LAST UPDATED	: 26/11/2016
+	 * @throws Exception 
+	******************************************************************************************************/	

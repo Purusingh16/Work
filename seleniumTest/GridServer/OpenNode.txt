@@ -1,0 +1,1 @@
+java -jar selenium-server-standalone-2.53.0.jar -role node -Dwebdriver.chrome.driver=..\drivers\chromedriver.exe -Dwebdriver.ie.driver=..\drivers\IEDriverServer.exe -hub http://localhost:4441/grid/register

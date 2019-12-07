@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="package1.TestngDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

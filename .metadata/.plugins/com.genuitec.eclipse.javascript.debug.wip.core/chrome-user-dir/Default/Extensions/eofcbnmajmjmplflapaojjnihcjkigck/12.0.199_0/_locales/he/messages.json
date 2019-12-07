@@ -1,0 +1,106 @@
+{
+   "safeShopBestButtonNextOffer": {
+      "message": "ההצעה הבאה  %s על %s"
+   },
+   "safeShopBestButtonSave": {
+      "message": "חסוך %s %s על %s"
+   },
+   "safeShopBestTitleBestHere": {
+      "message": "ההצעה הטובה ביותר כאן!"
+   },
+   "safeShopBestTitleCheaperFound": {
+      "message": "נמצאו מחירים נמוכים יותר!"
+   },
+   "safeShopCoupons": {
+      "message": "%s שוברים"
+   },
+   "safeShopOffers": {
+      "message": "%s הצעות מתחילות ב-%s"
+   },
+   "sasClickToCopy": {
+      "message": "לחץ כדי להעתיק"
+   },
+   "sasCouponCodeCopied": {
+      "message": "הקוד הועתק ללוח."
+   },
+   "sasCouponCodeTitle": {
+      "message": "קוד שובר"
+   },
+   "sasCouponInstructionsTitle": {
+      "message": "הוראות למימוש השובר"
+   },
+   "sasCouponsSaving": {
+      "message": "חסוך עד %s"
+   },
+   "sasCouponsTitle": {
+      "message": "%s שוברים זמינים!"
+   },
+   "sasHintBestOffer": {
+      "message": "ההצעה הטובה ביותר"
+   },
+   "sasHintBestOfferDesc": {
+      "message": "לך ישר למחיר הטוב ביותר עבור המוצר הזה"
+   },
+   "sasHintCoupons": {
+      "message": "הצג שוברים"
+   },
+   "sasHintCouponsDesc": {
+      "message": "הצג שוברים ושמור"
+   },
+   "sasHintOtherOffers": {
+      "message": "השווה מחירים"
+   },
+   "sasHintOtherOffersDesc": {
+      "message": "צפה בצעות ברות השוואה אחרות"
+   },
+   "sasHintSettings": {
+      "message": "הגדרות"
+   },
+   "sasHintSettingsDesc": {
+      "message": "התאם אישית את ההגדרות שלך כאן"
+   },
+   "sasNoCouponCode": {
+      "message": "לא נדרש קוד"
+   },
+   "sasOptionsDisableAll": {
+      "message": "נטרל את  SafePrice בכל האתרים למשך 24 שעות"
+   },
+   "sasOptionsDisableOnSite": {
+      "message": "נטרל את  SafePrice על  %s למשך 24 שעות"
+   },
+   "sasOptionsEnableAll": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for all domains",
+      "message": "הפעל את SafePrice בכל האתרים"
+   },
+   "sasOptionsEnableOnSite": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for one domain. %s: name of the domain",
+      "message": "הפעל את SafePrice ב-%s"
+   },
+   "sasOptionsNeverShowOnSite": {
+      "message": "אל תראה קופונים ב-%s"
+   },
+   "sasProductName": {
+      "message": "SafePrice"
+   },
+   "sasPromoAction": {
+      "message": "נשמע טוב, סגור את ההודעה"
+   },
+   "sasPromoDescription": {
+      "message": "SafePrice מוצא את העסקות הטובות ביותר עבור המוצרים המבוקשים. בודק מחירים, משווה חנויות, קורא סקירות לקוחות, מאמת מוניטין קמעונאי, צופה בסרטוני המוצר, ומשיג קופונים ישר לדפדפן הרשת שלך."
+   },
+   "sasPromoNewBadge": {
+      "message": "חדש"
+   },
+   "sasPromoOptout": {
+      "message": "נטרל את  SafePrice"
+   },
+   "sasRecommendedOfferMessage": {
+      "message": "מומלץ"
+   },
+   "sasRecommendedOfferTitle": {
+      "message": "המוכר הזה מהימן, המחירים שלו טובים וגם הביקורות ואיכות השירות טובים."
+   },
+   "sasShippingLabel": {
+      "message": "קניות/טיפול מ"
+   }
+}

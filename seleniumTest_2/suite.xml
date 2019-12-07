@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+    <listeners>
+       <listener class-name="utils.TestListener"/>
+  </listeners>
+      <test name="FirefoxTest">
+      <parameter name="browserName" value="firefox"/>
+    <classes>      
+    <!--   <class name="testScripts.TestLoginPage"/> --> 
+       <class name="testScripts.TestContactUs"/>
+       <parameter name="uploadFile" value="test.txt"></parameter>           
+    </classes>
+  </test> 
+  <!--   <test name="ChromeTest">
+      <parameter name="browserName" value="chrome"/>
+    <classes>      
+        <class name="testScripts.TestLoginPage"/>
+     
+    </classes>
+  </test> -->
+  <!-- Test -->
+</suite> <!-- Suite -->

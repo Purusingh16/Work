@@ -1,0 +1,535 @@
+{
+   "InternalTabs": {
+      "message": "Bạn không thể xếp loại các tập tin hay thẻ nội bộ"
+   },
+   "VoteThank": {
+      "message": "Xin cám ơn! Bình chọn của bạn đã được lưu lại."
+   },
+   "anonymousUser": {
+      "message": "Người dùng ẩn danh"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Mở Vùng An toàn Avast"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "Chuyển ngay"
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "Tìm hiểu thêm"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Mẹo Avast: trình duyệt SafeZone chặn quảng cáo nhằm bảo vệ bạn khỏi theo dõi cookie và quảng cáo độc hại."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "Đảm bảo an toàn cho các thanh toán trực tuyến của bạn bằng cách sử dụng trình duyệt Vùng An toàn Avast."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "Đảm bảo an toàn cho các giảm giá tốt nhất và thanh toán an toàn bằng trình duyệt Vùng An toàn Avast."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "Bạn có biết rằng bạn có thể dễ dàng tải xuống video từ các trang truyền trực tiếp?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "Không hiển thị mục này nữa"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "An toàn Trực tuyến"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Cho phép tất cả các hệ thống theo dõi"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "trên tất cả các trang web"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Chặn tất cả các hệ thống theo dõi"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "Thiết lập Toàn cầu"
+   },
+   "baMoreSettingsAction": {
+      "message": "Thiết lập khác"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "đã được cho phép"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "đã bị chặn"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "Hệ thống theo dõi hiện"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "trên trang web"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "hệ thống theo dõi"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "Bạn đánh giá trang web này"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "không tốt"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "tốt"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "castYourVote": {
+      "message": "Bỏ phiếu bầu"
+   },
+   "checkAll": {
+      "message": "(Check tất cả những phần được sử dụng)"
+   },
+   "close": {
+      "message": "Đóng"
+   },
+   "corporate": {
+      "message": "Hợp tác"
+   },
+   "currentVote": {
+      "message": "Xếp hạng chung"
+   },
+   "detailsHeadline": {
+      "message": "Avast vừa quét trang web này"
+   },
+   "detailsMalwareNo": {
+      "message": "Không phát hiện thấy phần mềm độc hại"
+   },
+   "detailsMalwareYes": {
+      "message": "Phát hiện thấy phần mềm độc hại!"
+   },
+   "detailsPhishingNo": {
+      "message": "Không phát hiện thấy lừa đảo"
+   },
+   "detailsPhishingYes": {
+      "message": "Phát hiện lừa đảo!"
+   },
+   "disabledTab": {
+      "message": "Bạn không thể xếp loại các tập tin hay thẻ nội bộ"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "Quảng cáo Theo dõi"
+   },
+   "dntAllowGroupAction": {
+      "message": "Cho phép tất cả"
+   },
+   "dntAllowTrackerAction": {
+      "message": "Cho phép"
+   },
+   "dntAllowed": {
+      "message": "được cho phép"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "Tự động chặn trình theo dõi: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "Đã tắt"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "Đã bật"
+   },
+   "dntBlockGroupAction": {
+      "message": "Chặn tất cả"
+   },
+   "dntBlockTrackerAction": {
+      "message": "Chặn"
+   },
+   "dntBlocked": {
+      "message": "đã bị chặn"
+   },
+   "dntHeadline": {
+      "message": "%s công ty tìm cách theo dõi bạn"
+   },
+   "dntNetworks": {
+      "message": "Mạng"
+   },
+   "dntNetworksDetected": {
+      "message": "%s mạng được phát hiện"
+   },
+   "dntOthersNetworks": {
+      "message": "Khác"
+   },
+   "dntSocialNetworks": {
+      "message": "Mạng xã hội"
+   },
+   "dntStatusAllAllowed": {
+      "message": "Tất cả được cho phép"
+   },
+   "dntStatusAllBlocked": {
+      "message": "Tất cả bị chặn"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "Đã bị chặn"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "Một số bị chặn"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "Trang web Phân tích"
+   },
+   "drugs": {
+      "message": "Rượu / Chất gây nghiện"
+   },
+   "error": {
+      "message": "Lỗi"
+   },
+   "errorUnexpected": {
+      "message": "Lỗi Bất ngờ"
+   },
+   "gambling": {
+      "message": "Trò cờ bạc"
+   },
+   "howLike": {
+      "message": "Bạn có thích trang web này không?"
+   },
+   "illegal": {
+      "message": "Phần mềm lậu / bất hợp pháp"
+   },
+   "it": {
+      "message": "CNTT / Tải về"
+   },
+   "loginAnonymous": {
+      "message": "Như người dùng ẩn danh"
+   },
+   "loginDesc": {
+      "message": "Điền thông tin đăng nhập vào tài khoản my.avast.com của bạn:"
+   },
+   "loginError": {
+      "message": "Đăng nhập thất bại"
+   },
+   "loginLogin": {
+      "message": "Đăng nhập"
+   },
+   "loginLogout": {
+      "message": "Đăng xuất"
+   },
+   "loginName": {
+      "message": "Tên:"
+   },
+   "loginPswd": {
+      "message": "Mật khẩu:"
+   },
+   "malwareNext": {
+      "message": "Tải xuống Avast Free Antivirus"
+   },
+   "malwareSite": {
+      "message": "Trang web này có thể gây hại cho máy tính của bạn."
+   },
+   "malwareSiteRec": {
+      "message": "Chúng tôi khuyến nghị bạn nên cài đặt Avast Antivirus để quét máy tính."
+   },
+   "news": {
+      "message": "Tin tức / Blog"
+   },
+   "noRating": {
+      "message": "Trang web này chưa được xếp hạng"
+   },
+   "noWeight": {
+      "message": "(không đủ phiếu bầu)"
+   },
+   "others": {
+      "message": "Khác"
+   },
+   "phishingBack": {
+      "message": "Đưa tôi ra khỏi đây"
+   },
+   "phishingClose": {
+      "message": "Phớt lờ cảnh báo"
+   },
+   "phishingCreditNumber": {
+      "message": "Dường như bạn đang cố nhập mật khẩu hoặc số tài khoản trong một trang web không đủ mức tin cậy. Xin hãy kiểm tra kĩ tính xác thực của trang web. Việc điền thông tin cá nhân trong một trang web khả nghi có thể dẫn đến nguy cơ mất cắp thông tin tài khoản."
+   },
+   "phishingDesc": {
+      "message": "Lừa đảo là sự xâm phạm nhằm có được những thông tin nhạy cảm như tên người dùng, mật khẩu và chi tiết thẻ tín dụng..."
+   },
+   "phishingPhishingSite": {
+      "message": "Trang web này vừa bị đánh dấu là trang phát tán quảng cáo."
+   },
+   "phishingTrust": {
+      "message": "Tôi tin tưởng trang web này"
+   },
+   "phishingWarning": {
+      "message": "Cảnh báo"
+   },
+   "pornography": {
+      "message": "Khiêu dâm"
+   },
+   "ratingAverage": {
+      "message": "Trang web này có xếp hạng trung bình"
+   },
+   "ratingBad": {
+      "message": "Trang web này bị xếp hạng kém"
+   },
+   "ratingCommunity": {
+      "message": "Bình chọn từ cộng đồng: %s"
+   },
+   "ratingDone": {
+      "message": "Đã thực hiện"
+   },
+   "ratingGood": {
+      "message": "Trang web này được xếp hạng cao"
+   },
+   "ratingLevelAverage": {
+      "message": "Trung bình"
+   },
+   "ratingLevelBad": {
+      "message": "Không tốt"
+   },
+   "ratingLevelPositive": {
+      "message": "Tốt"
+   },
+   "ratingLevelUndefined": {
+      "message": "Không có"
+   },
+   "ratingNegative": {
+      "message": "Tại sao bạn lại đánh giá trải nghiệm của mình là không tốt?"
+   },
+   "ratingNoRate": {
+      "message": "Tôi không muốn đánh giá bây giờ"
+   },
+   "ratingPending": {
+      "message": "Xây dựng lại việc xếp hạng"
+   },
+   "ratingPositive": {
+      "message": "Tại sao bạn lại đánh giá trải nghiệm của mình là tốt?"
+   },
+   "ratingRate": {
+      "message": "Bạn đánh giá trải nghiệm của mình với trang web này như thế nào?"
+   },
+   "ratingTextAverage": {
+      "message": "trang web này có danh tiếng xấu"
+   },
+   "ratingTextBad": {
+      "message": "trang web này không an toàn"
+   },
+   "ratingTextPositive": {
+      "message": "trang web này an toàn"
+   },
+   "ratingTextUndefined": {
+      "message": "trang web không xác định"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "Khôi phục"
+   },
+   "safeZoneDecline": {
+      "message": "Không chạy Vùng An toàn đối với "
+   },
+   "safeZoneDesc": {
+      "message": "Avast khuyến nghị bạn chuyển sang Vùng An toàn"
+   },
+   "safeZoneFeedback": {
+      "message": "Để đảm bảo an toàn cho bạn, URL yêu cầu đã được mở trong Vùng An toàn"
+   },
+   "safeZoneNo": {
+      "message": "Không"
+   },
+   "safeZoneYes": {
+      "message": "Chuyển sang ngay"
+   },
+   "settingsReset": {
+      "message": "Khôi phục về mặc định"
+   },
+   "settingsSave": {
+      "message": "Lưu"
+   },
+   "settingscommunityIQ": {
+      "message": "Chia sẻ Dữ liệu"
+   },
+   "settingscommunityIQDesc": {
+      "message": "Bằng việc kích hoạt tùy chọn này, bạn đồng ý chuyển tiếp ẩn danh một số thông tin nhất định cho Avast. Chúng tôi có thể chia sẻ thông tin được giấu danh tính với các bên thứ ba."
+   },
+   "settingsdnt": {
+      "message": "Chống theo dõi"
+   },
+   "settingsdnt0": {
+      "message": "Lá chắn Riêng tư"
+   },
+   "settingsdnt2": {
+      "message": "Không theo dõi"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "Mặc định chặn quảng cáo theo dõi"
+   },
+   "settingsdntDesc": {
+      "message": "Phát hiện và chặn các quảng cáo không mong muốn, đồng thời ngăn ngừa các trang web phân tích không cho bí mật theo dõi bạn"
+   },
+   "settingsdntOthersDesc": {
+      "message": "Mặc định chặn những cái khác"
+   },
+   "settingsdntSocialDesc": {
+      "message": "Mặc định chặn các mạng xã hội"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "Mặc định chặn trang web phân tích"
+   },
+   "settingsphishing": {
+      "message": "Chống lừa đảo"
+   },
+   "settingsphishing0": {
+      "message": "Lá chắn Lướt Web"
+   },
+   "settingsphishing2": {
+      "message": "Chống lừa đảo"
+   },
+   "settingsphishingDesc": {
+      "message": "Quét các trang web nhằm phòng ngừa phần mềm độc hại và ngăn chặn lừa đảo"
+   },
+   "settingssafeZone": {
+      "message": "Vùng An toàn"
+   },
+   "settingssafeZoneDesc": {
+      "message": "Chuyển sang Vùng An toàn đối với các trang web giao dịch nhạy cảm (cần cài đặt Avast Antivirus)"
+   },
+   "settingsserp": {
+      "message": "Kết quả công cụ tìm kiếm"
+   },
+   "settingsserpDesc": {
+      "message": "Bật tô màu trang kết quả tìm kiếm"
+   },
+   "settingsserpPopupDesc": {
+      "message": "Bật cửa sổ popup trên trang kết quả tìm kiếm"
+   },
+   "settingssiteCorrect": {
+      "message": "Sửa lỗi Địa chỉ Web"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "Bỏ qua lời nhắc và tự động chuyển hướng đến các trang web hợp pháp"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "Phát hiện và sửa lỗi các URL gõ sai cũng như chuyển hướng đến trang web hợp pháp"
+   },
+   "sfzoneAlways": {
+      "message": "Có, luôn luôn"
+   },
+   "sfzoneDesc": {
+      "message": "Bạn vừa truy cập vào một trang trang web giao dịch trực tuyến. Bạn có muốn chạy trang web này trong Vùng An toàn Avast không?"
+   },
+   "sfzoneHeadline": {
+      "message": "Vùng An toàn Avast"
+   },
+   "sfzoneNever": {
+      "message": "Không bao giờ"
+   },
+   "sfzoneNo": {
+      "message": "Không"
+   },
+   "sfzoneSwitch": {
+      "message": "Chuyển tới Vùng An toàn Avast"
+   },
+   "sfzoneYes": {
+      "message": "Có"
+   },
+   "shopping": {
+      "message": "Mua sắm"
+   },
+   "sideDashboard": {
+      "message": "Avast của tôi"
+   },
+   "sideDetails": {
+      "message": "Tìm hiểu thêm"
+   },
+   "sideRate": {
+      "message": "Đánh giá ngay"
+   },
+   "sideSettings": {
+      "message": "Thiết lập"
+   },
+   "sitecorrectAuto": {
+      "message": "Tự động chuyển hướng đến các trang web chính xác đã được biết ngay từ giờ trở đi"
+   },
+   "sitecorrectBarButton": {
+      "message": "Đây không phải là lỗi, đưa tôi trở lại"
+   },
+   "sitecorrectBarMsg": {
+      "message": "Sửa lỗi Địa chỉ Web: tự động chuyển hướng từ %s"
+   },
+   "sitecorrectHeadline": {
+      "message": "Sửa lỗi Địa chỉ Web"
+   },
+   "sitecorrectHelp": {
+      "message": "Để định cấu hình của tính năng Avast Sửa lỗi Địa chỉ Web, vui lòng mở giao diện người dùng Avast, đi đến phần Bảo vệ Phụ trợ, Bảo vệ Trình duyệt rồi click chuột vào nút Thiết lập."
+   },
+   "sitecorrectMean": {
+      "message": "Ý bạn là %s ?"
+   },
+   "sitecorrectNo": {
+      "message": "Không, ý tôi là %s"
+   },
+   "sitecorrectText": {
+      "message": "Chắc chắn đây không phải là trang web bạn muốn truy cập."
+   },
+   "sitecorrectYes": {
+      "message": "Có"
+   },
+   "social": {
+      "message": "Xã hội / Gaming"
+   },
+   "thanksHeadline": {
+      "message": "Cám ơn bạn đã đánh giá!"
+   },
+   "thanksMessage": {
+      "message": "Bình chọn của bạn đã được gửi đi."
+   },
+   "title": {
+      "message": "Thiết lập Avast Bảo vệ Trực tuyến"
+   },
+   "topBarDetails": {
+      "message": "Xem chi tiết"
+   },
+   "topBarRatingAverage": {
+      "message": "%s được đánh giá OK"
+   },
+   "topBarRatingBad": {
+      "message": "%s được đánh giá nguy hiểm"
+   },
+   "topBarRatingGood": {
+      "message": "%s được đánh giá an toàn"
+   },
+   "violence": {
+      "message": "Vũ khí / Bạo lực"
+   },
+   "vote": {
+      "message": "Bầu chọn"
+   },
+   "voteNegative": {
+      "message": "không tốt"
+   },
+   "votePositive": {
+      "message": "tốt"
+   },
+   "webrepDisabled": {
+      "message": "WebRep đã ngừng hoạt động"
+   },
+   "weight1": {
+      "message": "(dựa trên chỉ một lượng nhỏ phiếu bầu)"
+   },
+   "weight2": {
+      "message": "(dựa trên một lượng trung bình phiếu bầu)"
+   },
+   "weight3": {
+      "message": "(dựa trên một lượng lớn phiếu bầu)"
+   },
+   "whatTypeContent": {
+      "message": "Thể loại nội dung mà trang web này cung cấp?"
+   }
+}

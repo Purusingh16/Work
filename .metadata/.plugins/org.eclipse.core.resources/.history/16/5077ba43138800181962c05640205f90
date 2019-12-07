@@ -1,0 +1,54 @@
+package stringManipulation;
+
+import java.util.HashMap;
+import java.util.Iterator;
+
+public class DuplicateString
+{
+	static void findDuplicateWord(String str)
+	{
+		HashMap<String , Integer> hashMap=new HashMap<>();
+		String[] splitStr = str.split(" ");
+//		System.out.println(splitStr);
+		
+		for (String tempString : splitStr) 
+		{
+//			System.out.println(tempString);
+			if (hashMap.get(tempString)!=null)
+			{
+				hashMap.put(tempString, hashMap.get(tempString)+1);
+			}
+			else
+			{
+				hashMap.put(tempString, 1);
+			}
+			
+		}
+//		System.out.println(hashMap);
+		Iterator<String> tempString = hashMap.keySet().iterator();
+		while (tempString.hasNext()) 
+		{
+			String next = tempString.next();
+			if (hashMap.get(next)>1) 
+			{
+				System.out.println("How Word "+ next +" appred " + hashMap.get(next)+ " no of items");
+			}
+		}
+	}
+	private void finDuplicateChar(String str) 
+	{
+		for(int i=0 ; i<str.length() ;i++)
+		{
+			
+		}
+	}
+	
+
+	public static void main(String[] args) 
+	{
+		findDuplicateWord("I am am Learning Java Java");
+		findDuplicateChar("JavaJ2EE");
+		
+	}
+
+}

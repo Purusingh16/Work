@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+ <listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      <listener class-name="package testNG4.CustomListener"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="testNG4.CaptureScreenShot"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

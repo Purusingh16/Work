@@ -1,0 +1,5 @@
+*List is the child interface of collection.
+
+*If we want to represent the a group of individual objects as a single entity
+where duplicates are allowed and insertion order preserved then we should go for 
+List.

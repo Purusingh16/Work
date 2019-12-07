@@ -1,0 +1,277 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 06 14:32:33 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>76 seconds (76025 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.scripts.LoginScenario.setUP()'><b>setUP</b><br>Test class: com.scripts.LoginScenario</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+18FBuZk&quot;,&quot;location&quot;:&quot;app-system-defaults&quot;,&quot;version&quot;:&quot;0.1&quot;,&quot;type&quot;:&quot;extension&quot;,&quot;internalName&quot;:null,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Firefox Hello Beta&quot;,&quot;description&quot;:&quot;Web sharing for Firefox&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\loop@mozilla.org.xpi&quot;,&quot;installDate&quot;:1457051706000,&quot;updateDate&quot;:1457051706000,&quot;applyBackgroundUpdates&quot;:1,&quot;bootstrap&quot;:true,&quot;skinnable&quot;:false,&quot;size&quot;:3086125,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:false,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0a1&quot;,&quot;maxVersion&quot;:&quot;45.0&quot;},{&quot;id&quot;:&quot;xpcshell@tests.mozilla.org&quot;,&quot;minVersion&quot;:&quot;0&quot;,&quot;maxVersion&quot;:&quot;10&quot;}],&quot;targetPlatforms&quot;:[],&quot;multiprocessCompatible&quot;:false,&quot;seen&quot;:true}
+1512550996088	addons.xpi	DEBUG	getModTime: Recursive scan of loop@mozilla.org
+1512550996088	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;syncGUID&quot;:&quot;3wdWfYrxMbZn&quot;,&quot;location&quot;:&quot;app-global&quot;,&quot;version&quot;:&quot;45.0&quot;,&quot;type&quot;:&quot;theme&quot;,&quot;internalName&quot;:&quot;classic/1.0&quot;,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.png&quot;,&quot;48&quot;:&quot;icon.png&quot;},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1457051706000,&quot;updateDate&quot;:1457051706000,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:22006,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0&quot;,&quot;maxVersion&quot;:&quot;45.0&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true}
+1512550996089	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1512550996090	DeferredSave.extensions.json	DEBUG	Save changes
+1512550996090	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1512550996090	addons.xpi-utils	DEBUG	Updating add-on states
+1512550996093	addons.xpi-utils	DEBUG	Writing add-ons list
+1512550996100	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1512550996102	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 0.1
+1512550996132	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1512550996133	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1512550996133	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1512550996247	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1512550996247	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1512550996248	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1512550996248	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1512550996249	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1512550996250	addons.manager	DEBUG	Starting provider: GMPProvider
+1512550996282	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1512550996283	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1512550996283	addons.manager	DEBUG	Starting provider: PluginProvider
+1512550996283	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1512550996283	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1512550996284	addons.manager	DEBUG	Completed startup sequence
+1512551006370	DeferredSave.extensions.json	DEBUG	Starting write
+
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;purushottam&apos;, ip: &apos;192.168.230.2&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at com.utilities.SeleniumUtils.openBrowser(SeleniumUtils.java:22)
+	at com.scripts.LoginScenario.setUP(LoginScenario.java:22)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+18FBuZk&quot;,&quot;location&quot;:&quot;app-system-defaults&quot;,&quot;version&quot;:&quot;0.1&quot;,&quot;type&quot;:&quot;extension&quot;,&quot;internalName&quot;:null,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Firefox Hello Beta&quot;,&quot;description&quot;:&quot;Web sharing for Firefox&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\loop@mozilla.org.xpi&quot;,&quot;installDate&quot;:1457051706000,&quot;updateDate&quot;:1457051706000,&quot;applyBackgroundUpdates&quot;:1,&quot;bootstrap&quot;:true,&quot;skinnable&quot;:false,&quot;size&quot;:3086125,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:false,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0a1&quot;,&quot;maxVersion&quot;:&quot;45.0&quot;},{&quot;id&quot;:&quot;xpcshell@tests.mozilla.org&quot;,&quot;minVersion&quot;:&quot;0&quot;,&quot;maxVersion&quot;:&quot;10&quot;}],&quot;targetPlatforms&quot;:[],&quot;multiprocessCompatible&quot;:false,&quot;seen&quot;:true}
+1512550996088	addons.xpi	DEBUG	getModTime: Recursive scan of loop@mozilla.org
+1512550996088	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;syncGUID&quot;:&quot;3wdWfYrxMbZn&quot;,&quot;location&quot;:&quot;app-global&quot;,&quot;version&quot;:&quot;45.0&quot;,&quot;type&quot;:&quot;theme&quot;,&quot;internalName&quot;:&quot;classic/1.0&quot;,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.png&quot;,&quot;48&quot;:&quot;icon.png&quot;},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1457051706000,&quot;updateDate&quot;:1457051706000,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:22006,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0&quot;,&quot;maxVersion&quot;:&quot;45.0&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true}
+1512550996089	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1512550996090	DeferredSave.extensions.json	DEBUG	Save changes
+1512550996090	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1512550996090	addons.xpi-utils	DEBUG	Updating add-on states
+1512550996093	addons.xpi-utils	DEBUG	Writing add-ons list
+1512550996100	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1512550996102	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 0.1
+1512550996132	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1512550996133	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1512550996133	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1512550996247	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1512550996247	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1512550996248	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1512550996248	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1512550996249	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1512550996250	addons.manager	DEBUG	Starting provider: GMPProvider
+1512550996282	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1512550996283	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1512550996283	addons.manager	DEBUG	Starting provider: PluginProvider
+1512550996283	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1512550996283	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1512550996284	addons.manager	DEBUG	Completed startup sequence
+1512551006370	DeferredSave.extensions.json	DEBUG	Starting write
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)
+	... 34 more
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1520267010", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1520267010'><pre>org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+18FBuZk&quot;,&quot;location&quot;:&quot;app-system-defaults&quot;,&quot;version&quot;:&quot;0.1&quot;,&quot;type&quot;:&quot;extension&quot;,&quot;internalName&quot;:null,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Firefox Hello Beta&quot;,&quot;description&quot;:&quot;Web sharing for Firefox&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\loop@mozilla.org.xpi&quot;,&quot;installDate&quot;:1457051706000,&quot;updateDate&quot;:1457051706000,&quot;applyBackgroundUpdates&quot;:1,&quot;bootstrap&quot;:true,&quot;skinnable&quot;:false,&quot;size&quot;:3086125,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:false,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0a1&quot;,&quot;maxVersion&quot;:&quot;45.0&quot;},{&quot;id&quot;:&quot;xpcshell@tests.mozilla.org&quot;,&quot;minVersion&quot;:&quot;0&quot;,&quot;maxVersion&quot;:&quot;10&quot;}],&quot;targetPlatforms&quot;:[],&quot;multiprocessCompatible&quot;:false,&quot;seen&quot;:true}
+1512550996088	addons.xpi	DEBUG	getModTime: Recursive scan of loop@mozilla.org
+1512550996088	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;syncGUID&quot;:&quot;3wdWfYrxMbZn&quot;,&quot;location&quot;:&quot;app-global&quot;,&quot;version&quot;:&quot;45.0&quot;,&quot;type&quot;:&quot;theme&quot;,&quot;internalName&quot;:&quot;classic/1.0&quot;,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.png&quot;,&quot;48&quot;:&quot;icon.png&quot;},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1457051706000,&quot;updateDate&quot;:1457051706000,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:22006,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0&quot;,&quot;maxVersion&quot;:&quot;45.0&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true}
+1512550996089	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1512550996090	DeferredSave.extensions.json	DEBUG	Save changes
+1512550996090	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1512550996090	addons.xpi-utils	DEBUG	Updating add-on states
+1512550996093	addons.xpi-utils	DEBUG	Writing add-ons list
+1512550996100	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1512550996102	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 0.1
+1512550996132	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1512550996133	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1512550996133	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1512550996247	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1512550996247	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1512550996248	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1512550996248	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1512550996249	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1512550996250	addons.manager	DEBUG	Starting provider: GMPProvider
+1512550996282	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1512550996283	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1512550996283	addons.manager	DEBUG	Starting provider: PluginProvider
+1512550996283	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1512550996283	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1512550996284	addons.manager	DEBUG	Completed startup sequence
+1512551006370	DeferredSave.extensions.json	DEBUG	Starting write
+
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;purushottam&apos;, ip: &apos;192.168.230.2&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at com.utilities.SeleniumUtils.openBrowser(SeleniumUtils.java:22)
+	at com.scripts.LoginScenario.setUP(LoginScenario.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
+18FBuZk&quot;,&quot;location&quot;:&quot;app-system-defaults&quot;,&quot;version&quot;:&quot;0.1&quot;,&quot;type&quot;:&quot;extension&quot;,&quot;internalName&quot;:null,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Firefox Hello Beta&quot;,&quot;description&quot;:&quot;Web sharing for Firefox&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\features\\loop@mozilla.org.xpi&quot;,&quot;installDate&quot;:1457051706000,&quot;updateDate&quot;:1457051706000,&quot;applyBackgroundUpdates&quot;:1,&quot;bootstrap&quot;:true,&quot;skinnable&quot;:false,&quot;size&quot;:3086125,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:false,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0a1&quot;,&quot;maxVersion&quot;:&quot;45.0&quot;},{&quot;id&quot;:&quot;xpcshell@tests.mozilla.org&quot;,&quot;minVersion&quot;:&quot;0&quot;,&quot;maxVersion&quot;:&quot;10&quot;}],&quot;targetPlatforms&quot;:[],&quot;multiprocessCompatible&quot;:false,&quot;seen&quot;:true}
+1512550996088	addons.xpi	DEBUG	getModTime: Recursive scan of loop@mozilla.org
+1512550996088	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;{972ce4c6-7e08-4474-a285-3208198ce6fd}&quot;,&quot;syncGUID&quot;:&quot;3wdWfYrxMbZn&quot;,&quot;location&quot;:&quot;app-global&quot;,&quot;version&quot;:&quot;45.0&quot;,&quot;type&quot;:&quot;theme&quot;,&quot;internalName&quot;:&quot;classic/1.0&quot;,&quot;updateURL&quot;:null,&quot;updateKey&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;aboutURL&quot;:null,&quot;icons&quot;:{&quot;32&quot;:&quot;icon.png&quot;,&quot;48&quot;:&quot;icon.png&quot;},&quot;iconURL&quot;:null,&quot;icon64URL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Default&quot;,&quot;description&quot;:&quot;The default theme.&quot;,&quot;creator&quot;:&quot;Mozilla&quot;,&quot;homepageURL&quot;:null,&quot;contributors&quot;:[&quot;Mozilla Contributors&quot;]},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;descriptor&quot;:&quot;C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi&quot;,&quot;installDate&quot;:1457051706000,&quot;updateDate&quot;:1457051706000,&quot;applyBackgroundUpdates&quot;:1,&quot;skinnable&quot;:true,&quot;size&quot;:22006,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;hasBinaryComponents&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;{ec8030f7-c20a-464f-9b0e-13a3a9e97384}&quot;,&quot;minVersion&quot;:&quot;45.0&quot;,&quot;maxVersion&quot;:&quot;45.0&quot;}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true}
+1512550996089	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1512550996090	DeferredSave.extensions.json	DEBUG	Save changes
+1512550996090	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1512550996090	addons.xpi-utils	DEBUG	Updating add-on states
+1512550996093	addons.xpi-utils	DEBUG	Writing add-ons list
+1512550996100	addons.xpi	DEBUG	Registering manifest for C:\Program Files (x86)\Mozilla Firefox\browser\features\loop@mozilla.org.xpi
+1512550996102	addons.xpi	DEBUG	Calling bootstrap method startup on loop@mozilla.org version 0.1
+1512550996132	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider&gt;
+1512550996133	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider&gt;
+1512550996133	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider&gt;
+1512550996247	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1512550996247	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1512550996248	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1512550996248	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1512550996249	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1512550996250	addons.manager	DEBUG	Starting provider: GMPProvider
+1512550996282	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1512550996283	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1512550996283	addons.manager	DEBUG	Starting provider: PluginProvider
+1512550996283	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1512550996283	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1512550996284	addons.manager	DEBUG	Completed startup sequence
+1512551006370	DeferredSave.extensions.json	DEBUG	Starting write
+
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)
+	... 34 more
+</pre></div></td>
+<td>0</td>
+<td>com.scripts.LoginScenario@604ed9f0</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.scripts.LoginScenario.tearDown()'><b>tearDown</b><br>Test class: com.scripts.LoginScenario</td>
+<td></td>
+<td>0</td>
+<td>com.scripts.LoginScenario@604ed9f0</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.scripts.LoginScenario.verifySuccessfulLogin()'><b>verifySuccessfulLogin</b><br>Test class: com.scripts.LoginScenario</td>
+<td></td>
+<td>0</td>
+<td>com.scripts.LoginScenario@604ed9f0</td></tr>
+</table><p>
+</body>
+</html>

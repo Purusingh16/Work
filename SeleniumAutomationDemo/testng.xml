@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="instances" thread-count="3">
+	<test name="Test1">
+		<parameter name="Browser" value="FireFox" />
+		<classes>
+			<class
+				name="Modules.AssurantHealth.TestScript.TC_Verify_Purchase_Functionality" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test2">
+		<parameter name="Browser" value="InternetExplorer" />
+		<classes>
+			<class
+				name="Modules.AssurantHealth.TestScript.TC_Verify_Purchase_Functionality" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Test3">
+		<parameter name="Browser" value="Chrome" />
+		<classes>
+			<class
+				name="Modules.AssurantHealth.TestScript.TC_Verify_Purchase_Functionality" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

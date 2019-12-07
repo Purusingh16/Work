@@ -1,0 +1,106 @@
+{
+   "safeShopBestButtonNextOffer": {
+      "message": "Næste tilbud %s på %s"
+   },
+   "safeShopBestButtonSave": {
+      "message": "Spar %s %s på %s"
+   },
+   "safeShopBestTitleBestHere": {
+      "message": "Bedste tilbud her!"
+   },
+   "safeShopBestTitleCheaperFound": {
+      "message": "Lavere priser fundet!"
+   },
+   "safeShopCoupons": {
+      "message": "%s kuponer"
+   },
+   "safeShopOffers": {
+      "message": "%s tilbud starter ved %s"
+   },
+   "sasClickToCopy": {
+      "message": "Klik for at kopiere"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Kode kopieret til udklipsholder."
+   },
+   "sasCouponCodeTitle": {
+      "message": "Kuponkode"
+   },
+   "sasCouponInstructionsTitle": {
+      "message": "Instruktioner til indløsning af kupon"
+   },
+   "sasCouponsSaving": {
+      "message": "Spar op til %s"
+   },
+   "sasCouponsTitle": {
+      "message": "%s tilgængelige kuponer!"
+   },
+   "sasHintBestOffer": {
+      "message": "Bedste tilbud"
+   },
+   "sasHintBestOfferDesc": {
+      "message": "Gå direkte til den bedste pris for dette produkt."
+   },
+   "sasHintCoupons": {
+      "message": "Vis kuponer"
+   },
+   "sasHintCouponsDesc": {
+      "message": "Vis kuponer og gem"
+   },
+   "sasHintOtherOffers": {
+      "message": "Sammenlign priser"
+   },
+   "sasHintOtherOffersDesc": {
+      "message": "Se andre sammenlignelige priser"
+   },
+   "sasHintSettings": {
+      "message": "Indstillinger"
+   },
+   "sasHintSettingsDesc": {
+      "message": "Tilpas dine indstillinger her"
+   },
+   "sasNoCouponCode": {
+      "message": "Ingen kode påkrævet"
+   },
+   "sasOptionsDisableAll": {
+      "message": "Slå SafePrice fra på alle sider i 24 timer"
+   },
+   "sasOptionsDisableOnSite": {
+      "message": "Slå SafePrice til %s i 24 timer"
+   },
+   "sasOptionsEnableAll": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for all domains",
+      "message": "Aktivér SafePrice på alle websteder"
+   },
+   "sasOptionsEnableOnSite": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for one domain. %s: name of the domain",
+      "message": "Aktivér SafePrice på %s"
+   },
+   "sasOptionsNeverShowOnSite": {
+      "message": "Vis aldrig kuponer på %s"
+   },
+   "sasProductName": {
+      "message": "SafePrice"
+   },
+   "sasPromoAction": {
+      "message": "Lyder godt, luk denne besked"
+   },
+   "sasPromoDescription": {
+      "message": "SafePrice finder de bedste tilbud for dit ønskede produkt. Tjek priser, sammenlign butikker, læs kundeanmeldelser, bekræft sælgers omdømme, se produktvideoer og få kuponer direkte i din webbrowser."
+   },
+   "sasPromoNewBadge": {
+      "message": "Ny"
+   },
+   "sasPromoOptout": {
+      "message": "Slå SafePrice fra"
+   },
+   "sasRecommendedOfferMessage": {
+      "message": "Anbefalet"
+   },
+   "sasRecommendedOfferTitle": {
+      "message": "Denne pålidelige forhandler har gode priser, anmeldelser og giver kvalitetsservice."
+   },
+   "sasShippingLabel": {
+      "message": "Transport-/ekspeditionsgebyr fra"
+   }
+}

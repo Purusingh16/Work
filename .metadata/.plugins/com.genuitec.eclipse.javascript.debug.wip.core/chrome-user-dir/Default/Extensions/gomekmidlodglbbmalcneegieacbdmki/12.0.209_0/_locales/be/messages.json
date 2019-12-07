@@ -1,0 +1,535 @@
+{
+  "title": {
+    "message": "Налады Avast Сеціўнае Бясьпекі"
+  },
+  "disabledTab": {
+    "message": "Нельга ацэньваць лякальныя файлы ці ўнутраныя закладкі"
+  },
+  "webrepDisabled": {
+    "message": "Вэб-Рэпутацыя адключаная"
+  },
+  "InternalTabs": {
+    "message": "Нельга ацэньваць лякальныя файлы ці ўнутраныя закладкі"
+  },
+  "VoteThank": {
+    "message": "Дзякуем! Ваш голас пасьпяхова ўлічаны."
+  },
+  "currentVote": {
+    "message": "Агульная адзнака"
+  },
+  "castYourVote": {
+    "message": "Галасаваньне"
+  },
+  "howLike": {
+    "message": "Як спадабалася Вам гэтая старонка?"
+  },
+  "whatTypeContent": {
+    "message": "Які тып зьмесьціва яна ўтрымоўвае?"
+  },
+  "checkAll": {
+    "message": "(Пазначце ўсё тое, што падыходзіць)"
+  },
+  "shopping": {
+    "message": "Крама / Вітрына"
+  },
+  "social": {
+    "message": "Сацыяльная сетка / Забаўкі"
+  },
+  "news": {
+    "message": "Навіны / Жывальнік"
+  },
+  "it": {
+    "message": "Абпраґрамаваньне / Запампоўкі"
+  },
+  "corporate": {
+    "message": "Бізнэс / Праца"
+  },
+  "pornography": {
+    "message": "Порна"
+  },
+  "violence": {
+    "message": "Зброя / Гвалт"
+  },
+  "gambling": {
+    "message": "Рызыкоўная гульня"
+  },
+  "drugs": {
+    "message": "Алькаголь / Наркотыкі"
+  },
+  "illegal": {
+    "message": "Крадзенае абпраграмаваньне"
+  },
+  "others": {
+    "message": "Іншыя звесткі"
+  },
+  "vote": {
+    "message": "Галасаваць"
+  },
+  "noRating": {
+    "message": "Гэтая старонка ня мае адзнакі"
+  },
+  "ratingPending": {
+    "message": "Пошук адзнакаў"
+  },
+  "ratingGood": {
+    "message": "Гэтая старонка мае добрую адзнаку"
+  },
+  "ratingAverage": {
+    "message": "Гэтая старонка мае сярэднюю адзнаку"
+  },
+  "ratingBad": {
+    "message": "Гэтая старонка мае дрэнную адзнаку"
+  },
+  "noWeight": {
+    "message": "(бракуе галасоў)"
+  },
+  "weight1": {
+    "message": "(заснавана на невялікай колькасьці галасоў)"
+  },
+  "weight2": {
+    "message": "(заснавана на абмежаванай колькасьці галасоў)"
+  },
+  "weight3": {
+    "message": "(заснавана на вялікай колькасьці галасоў)"
+  },
+  "phishingWarning": {
+    "message": "Папярэджаньне"
+  },
+  "phishingCreditNumber": {
+    "message": "Вы спрабуеце азначыць пароль ці нумар крэдытнае карткі на старонцы з дрэннаю рэпутацыяю. Калі ласка, пераканайцеся ў тым, што гэта сапраўдная вэб-старонка. Увод прыватных зьвесткаў на ненадзейнай старонцы можа нанесьці шкоду вашай бясьпецы."
+  },
+  "phishingPhishingSite": {
+    "message": "Гэтая старонка пазначаная як фішынг-старонка."
+  },
+  "phishingDesc": {
+    "message": "Фішынг ўяўляе сабой спробу падманным шляхам атрымаць такую канфідэнцыйную інфармацыю, як імёны карыстальнікаў, паролі і дадзеныя крэдытных карт..."
+  },
+  "malwareSite": {
+    "message": "Гэтая старонка, магчыма, распаўсюджвае шкоднасныя праґрамы."
+  },
+  "malwareSiteRec": {
+    "message": "Мы раім Вам усталяваць Avast Antivirus, каб праверыць ваш кампутар."
+  },
+  "malwareNext": {
+    "message": "Спампаваць Avast Free Antivirus"
+  },
+  "phishingTrust": {
+    "message": "Я давяряю гэтаму дамэну"
+  },
+  "phishingClose": {
+    "message": "Ігнараваць папярэджаньне"
+  },
+  "phishingBack": {
+    "message": "Пакінуць гэтае мейсца"
+  },
+  "loginDesc": {
+    "message": "Азначце зьвесткі ўліковага запісу для ўваходу ў my.avast.com:"
+  },
+  "loginName": {
+    "message": "Імя:"
+  },
+  "loginPswd": {
+    "message": "Пароль:"
+  },
+  "loginLogin": {
+    "message": "Увайсьці"
+  },
+  "loginAnonymous": {
+    "message": "Як няпознамка"
+  },
+  "anonymousUser": {
+    "message": "Няпознамка"
+  },
+  "loginError": {
+    "message": "Памылка ўваходу"
+  },
+  "loginLogout": {
+    "message": "Выйсьці"
+  },
+  "sfzoneHeadline": {
+    "message": "Avast Зона Бясьпекі"
+  },
+  "sfzoneDesc": {
+    "message": "Вы ўвайшлі на старонку сеціўнага банкінґу. Вы жадаеце запусьціць Avast Зону Бясьпекі?"
+  },
+  "sfzoneYes": {
+    "message": "Так"
+  },
+  "sfzoneAlways": {
+    "message": "Так, заўсёды"
+  },
+  "sfzoneNo": {
+    "message": "Не"
+  },
+  "sfzoneNever": {
+    "message": "Ніколі"
+  },
+  "sfzoneSwitch": {
+    "message": "Рэжым Avast Зона Бясьпекі"
+  },
+  "aosSafeZoneMsgDescBank": {
+    "message": "Бяспечна плаціце анлайн з дапамогай браўзэра Avast SafeZone."
+  },
+  "aosSafeZoneMsgDescVideo": {
+    "message": "Ці ведаеце вы, што можна лёгка загружаць відэа з сайтаў патокавага відэа?"
+  },
+  "aosSafeZoneMsgDescShopping": {
+    "message": "Знаходзьце найлепшыя прапановы і бяспечна плаціце за тавары з браўзэрам Avast SafeZone."
+  },
+  "aosSafeZoneMsgDescAds": {
+    "message": "Савет ад Avast: браўзэр SafeZone блакуе аб'явы, каб абараніць вас ад адсочвання cookie-файлаў і шкоднасных рэкламных кодаў."
+  },
+  "aosSafeZoneButtonMsgYes": {
+    "message": "Пераключыцца"
+  },
+  "aosSafeZoneButtonMsgOpen": {
+    "message": "Адкрыць Avast SafeZone"
+  },
+  "aosSafeZoneLinkMsgLearnMore": {
+    "message": "Болей"
+  },
+  "aosSafeZoneMsgDontShow": {
+    "message": "Не паказваць ізноў"
+  },
+  "sitecorrectHeadline": {
+    "message": "Самакарэктоўка Адрасоў"
+  },
+  "sitecorrectText": {
+    "message": "Магчыма, гэта ня тая старонка, якую Вы жадалі наведаць."
+  },
+  "sitecorrectMean": {
+    "message": "Вы маеце на ўвазе %s?"
+  },
+  "sitecorrectYes": {
+    "message": "Так"
+  },
+  "sitecorrectNo": {
+    "message": "Не, я маю на ўвазе %s"
+  },
+  "sitecorrectAuto": {
+    "message": "Аўтаматычна перанакіроўваць мяне на правільныя вэб-старонкі"
+  },
+  "sitecorrectHelp": {
+    "message": "Каб наладзіць Avast Самакарэктоўку Адрасоў, калі ласка адчыніце Avast Інтэрфэйс карыстача, перайдзіце да Дадатковай абароны, у Абарону азіральнікаў і скарыстайцеся кнопкаю &quot;Налады&quot;."
+  },
+  "sitecorrectBarMsg": {
+    "message": "Самакарэктоўка: аўтаматычнае перанакіраваньне з %s"
+  },
+  "sitecorrectBarButton": {
+    "message": "Гэта не было памылкаю, вярніце мяне туды"
+  },
+  "close": {
+    "message": "Зачыніць"
+  },
+  "settingssiteCorrect": {
+    "message": "Самакарэктоўка Адрасоў"
+  },
+  "settingssiteCorrectDesc": {
+    "message": "Выяўляе й выпраўляе памылкі ва URL-адрасах, перанакіроўвае на сапраўдныя старонкі"
+  },
+  "settingssiteCorrectAutoDesc": {
+    "message": "Прапускаць падказкі й адразу перанакіроўваць на сапраўдныя старонкі"
+  },
+  "settingsphishing0": {
+    "message": "Шыльда Азіраньня"
+  },
+  "settingsphishing": {
+    "message": "Антыфішынг"
+  },
+  "settingsphishing2": {
+    "message": "Антыфішынґ"
+  },
+  "settingsphishingDesc": {
+    "message": "Правярае вэб-старонкі на наяўнасьць шкоднасных праґрамаў і прадухіляе фішынґ"
+  },
+  "settingssafeZone": {
+    "message": "Зона Бясьпекі"
+  },
+  "settingssafeZoneDesc": {
+    "message": "Засьцерагае доступ да істотных фінансавых старонкаў праз Зону Бясьпекі (патрабуецца Avast Antivirus)"
+  },
+  "settingscommunityIQ": {
+    "message": "Абмен зьвесткамі"
+  },
+  "settingscommunityIQDesc": {
+    "message": "Паставіўшы тут каўку, Вы тым самым згаджаецеся на ананімную перадачу пэўных зьвесткаў, якія адносяцца да бясьпекі, на паслугач Avast. Мы можам абменьвацца ананімнай інфармацыяй з іншымі бакамі."
+  },
+  "settingsdnt0": {
+    "message": "Шыльда Прыватнасьці"
+  },
+  "settingsdnt": {
+    "message": "Абарона ад сачэньня"
+  },
+  "settingsdnt2": {
+    "message": "Абарона ад сачэньня"
+  },
+  "settingsdntDesc": {
+    "message": "Выяўляе й блякуе непажаданую рэкляму, прадухіляе сачэньне й збор адпаведных зьвесткаў старонкамі"
+  },
+  "settingsdntSocialDesc": {
+    "message": "Заблякаваць сачэньне сацыяльнымі сеткамі"
+  },
+  "settingsdntAdTrackingDesc": {
+    "message": "Заблякаваць сачэньне рэклямнікамі"
+  },
+  "settingsdntWebAnalyticsDesc": {
+    "message": "Заблякаваць збор статыстыкі наведваньняў"
+  },
+  "settingsdntOthersDesc": {
+    "message": "Заблякаваць збор іншых зьвесткаў"
+  },
+  "settingsserp": {
+    "message": "Вынікі шукаркі"
+  },
+  "settingsserpDesc": {
+    "message": "Падфарбоўваць старонку з вынікамі пошуку"
+  },
+  "settingsserpPopupDesc": {
+    "message": "Выныркі на старонцы з вынікамі пошуку"
+  },
+  "settingsSave": {
+    "message": "Захаваць"
+  },
+  "settingsReset": {
+    "message": "Узмоўчку"
+  },
+  "votePositive": {
+    "message": "станоўча"
+  },
+  "voteNegative": {
+    "message": "адмоўна"
+  },
+  "ratingTextUndefined": {
+    "message": "невядомая старонка"
+  },
+  "ratingTextPositive": {
+    "message": "бясьпечная старонка"
+  },
+  "ratingTextAverage": {
+    "message": "старонка з дрэннаю рэпутацыяю"
+  },
+  "ratingTextBad": {
+    "message": "небясьпечная старонка"
+  },
+  "ratingRate": {
+    "message": "Як Вы ацэньваеце ўражаньне ад гэтае старонкі?"
+  },
+  "ratingPositive": {
+    "message": "Чаму Вы ацанілі гэтую старонку станоўча?"
+  },
+  "ratingNegative": {
+    "message": "Чаму Вы ацанілі гэтую старонку адмоўна?"
+  },
+  "ratingNoRate": {
+    "message": "Я не жадаю зараз галасаваць"
+  },
+  "ratingDone": {
+    "message": "Гатова"
+  },
+  "detailsHeadline": {
+    "message": "Avast праверыў гэтую старонку"
+  },
+  "detailsMalwareYes": {
+    "message": "Выяўлена шкоднасная праґрама!"
+  },
+  "detailsMalwareNo": {
+    "message": "Шкоднасных праґрамаў ня выяўлена"
+  },
+  "detailsPhishingYes": {
+    "message": "Пагроза фішынґу!"
+  },
+  "detailsPhishingNo": {
+    "message": "Пагроза фішынґу адсутнічае"
+  },
+  "ratingCommunity": {
+    "message": "%s адзнака супольнасьці"
+  },
+  "ratingLevelUndefined": {
+    "message": "Ня мае"
+  },
+  "ratingLevelPositive": {
+    "message": "Добрая"
+  },
+  "ratingLevelAverage": {
+    "message": "Сярэдняя"
+  },
+  "ratingLevelBad": {
+    "message": "Дрэнная"
+  },
+  "thanksHeadline": {
+    "message": "Дзякуем за ваш голас!"
+  },
+  "thanksMessage": {
+    "message": "Вашая адзнака перададзеная."
+  },
+  "dntHeadline": {
+    "message": "Выяўлена %s спроба(ы,аў) сачэньня за Вамі"
+  },
+  "dntNetworksDetected": {
+    "message": "%s сеткаў выяўлена"
+  },
+  "dntSocialNetworks": {
+    "message": "Сацыяльныя сеткі"
+  },
+  "dntOthersNetworks": {
+    "message": "Іншыя зьвесткі"
+  },
+  "dntAdTrackingNetworks": {
+    "message": "Рэклямнікі"
+  },
+  "dntWebAnalyticsNetworks": {
+    "message": "Статыстыка"
+  },
+  "dntBlocked": {
+    "message": "забарон."
+  },
+  "dntAllowed": {
+    "message": "дазвол."
+  },
+  "dntNetworks": {
+    "message": "Сеткі"
+  },
+  "dntAllowTrackerAction": {
+    "message": "Дазволіць"
+  },
+  "dntBlockTrackerAction": {
+    "message": "Забараніць"
+  },
+  "dntAllowGroupAction": {
+    "message": "Дазволіць усё"
+  },
+  "dntBlockGroupAction": {
+    "message": "Забараніць усё"
+  },
+  "dntStatusAllBlocked": {
+    "message": "Усё забаронена"
+  },
+  "dntStatusAllAllowed": {
+    "message": "Усё дазволена"
+  },
+  "dntStatusSomeBlocked": {
+    "message": "Часткова забаронена"
+  },
+  "sideRate": {
+    "message": "Ацаніць"
+  },
+  "sideDetails": {
+    "message": "Болей"
+  },
+  "sideDashboard": {
+    "message": "Мой Avast"
+  },
+  "sideSettings": {
+    "message": "Налады"
+  },
+  "error": {
+    "message": "Памылка"
+  },
+  "errorUnexpected": {
+    "message": "Нечаканая памылка"
+  },
+  "topBarRatingGood": {
+    "message": "%s мае добрыя ацэнкі"
+  },
+  "topBarRatingAverage": {
+    "message": "%s мае звычайныя ацэнкі"
+  },
+  "topBarRatingBad": {
+    "message": "%s мае дрэнныя ацэнкі"
+  },
+  "topBarDetails": {
+    "message": "Падрабязна"
+  },
+  "safeZoneDesc": {
+    "message": "Avast раіць Вам пераключыцца на Зону Бясьпекі"
+  },
+  "safeZoneYes": {
+    "message": "Пераключыцца"
+  },
+  "safeZoneNo": {
+    "message": "Не"
+  },
+  "safeZoneFeedback": {
+    "message": "У мэтах супрацьвіруснай абароны, гэты URL-адрас адчынены праз Зону Бясьпекі"
+  },
+  "safeZoneDecline": {
+    "message": "Не прапаноўваць Зону Бясьпекі для "
+  },
+  "avastLogoOnlineSecuritySuffix": {
+    "message": "Сеціўная Бясьпека"
+  },
+  "baGlobalSettingsHeader": {
+    "message": "Ґлябальныя налады"
+  },
+  "baMoreSettingsAction": {
+    "message": "Болей наладаў"
+  },
+  "baMsgTrackingSystemsAre": {
+    "message": "Сачыльные сыстэмы зараз",
+    "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)"
+  },
+  "baMsgTrackingIsAllowed": {
+    "message": "дазволеныя",
+    "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion"
+  },
+  "baMsgTrackingIsBlocked": {
+    "message": "забароненыя",
+    "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion"
+  },
+  "baBlockAllSystems": {
+    "message": "Забараніць усе сачыльныя сыстэмы",
+    "description": "The call to action (link) portion of messaging: >Block all tracking systems< on all websites."
+  },
+  "baAllowAllSystems": {
+    "message": "Дазволіць усе сачыльныя сыстэмы",
+    "description": "The call to action (link) portion of messaging: >Block all tracking systems< on all websites."
+  },
+  "baAllowBlockOnAllWebsites": {
+    "message": "на ўсіх старонках",
+    "description": "Rest of the  >Block all tracking systems< on all websites. (on call to action - link)."
+  },
+  "dntAutomaticBlocking": {
+    "message": "Аўтаматычнае блякаваньне сачыльных сыстэмаў: ",
+    "description": "Messaging that user can enable/disable automatic tracking of systems"
+  },
+  "dntAutomaticBlockingEnabled": {
+    "message": "уключана",
+    "description": "Messaging to be shown when Automatic blocking of trackers: is enabled"
+  },
+  "dntAutomaticBlockingDisabled": {
+    "message": "адключана",
+    "description": "Messaging to be shown when Automatic blocking of trackers: is disabled"
+  },
+  "dntStatusAutoBlocked": {
+    "message": "Заблякавана",
+    "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)"
+  },
+  "baYouHaveRateSite1": {
+    "message": "Вашая ацэнка гэтае старонкі",
+    "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. "
+  },
+  "baYouHaveRateSite2positive": {
+    "message": "пазытыўная",
+    "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. "
+  },
+  "baYouHaveRateSite2negative": {
+    "message": "нэґатыўная",
+    "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. "
+  },
+  "revert": {
+    "message": "Адмяніць",
+    "description": "Revert"
+  },
+  "baYouHaveRateSite3": {
+    "message": ".",
+    "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . "
+  },
+  "baTrackingSystems": {
+    "message": "сачыльных сыстэмы(аў)",
+    "description": "Systems portion of 'NN | tracking systems | on website | some.website.com"
+  },
+  "baOnWebsite": {
+    "message": "на старонцы",
+    "description": "Website portion of 'NN | tracking systems | on website | some.website.com"
+  }
+}

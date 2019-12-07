@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=developer/src&lt;referencePart1{Base.java[Base" modifiers="1" timestamp="1482089434789"/>
+<typeInfo handle="=developer/src&lt;polymorphism1{Base.java[Base" modifiers="1" timestamp="1482783875744"/>
+<typeInfo handle="=developer/src&lt;polymorphism2{X1.java[X1" modifiers="1" timestamp="1482856844764"/>
+<typeInfo handle="=developer/src&lt;constProject{X.java[X" modifiers="1" timestamp="1482596370712"/>
+<typeInfo handle="=developer/src&lt;polymorphism{X1.java[X1" modifiers="1" timestamp="1482861231443"/>
+<typeInfo handle="=developer/src&lt;innerClass{Test.java[Demo1[Inner" modifiers="8" timestamp="1483473596210"/>
+<typeInfo handle="=developer/src&lt;abstractpack{Stud.java[Stud" modifiers="1024" timestamp="1508569415124"/>
+<typeInfo handle="=developer/src&lt;interfaceProject1{Inter11.java[Inter11" modifiers="513" timestamp="1485088864894"/>
+<typeInfo handle="=developer/src&lt;interfaceProject2{A.java[A" modifiers="513" timestamp="1485089598591"/>
+<typeInfo handle="=developer/src&lt;interfaceProject2{B.java[B" modifiers="513" timestamp="1485089671813"/>
+<typeInfo handle="=class Fundamentals/src&lt;inheritance{A.java[A" modifiers="1" timestamp="1508567933198"/>
+<typeInfo handle="=Inheritence/src&lt;demo1{Base.java[Base" modifiers="1" timestamp="1486375900903"/>
+<typeInfo handle="=javaAppInstanceOF/src&lt;demo1{X.java[X" modifiers="1" timestamp="1486474429788"/>
+<typeInfo handle="=javaAppInstanceOF/src&lt;demo2{X.java[X" modifiers="1" timestamp="1486475276583"/>
+<typeInfo handle="=polymorphismFramework/src&lt;overriding_in_static_method{Base.java[Base" modifiers="1" timestamp="1486986087112"/>
+<typeInfo handle="=polymorphismFramework/src&lt;dynamic_method_dispatch{Base.java[Base" modifiers="1" timestamp="1486992102212"/>
+<typeInfo handle="=polymorphismFramework/src&lt;dynamic_method_dispatch2{Base.java[Base" modifiers="1" timestamp="1486993954069"/>
+<typeInfo handle="=polymorphismFramework/src&lt;dynamic_method_dispatch3{Base.java[Base" modifiers="1" timestamp="1486994278562"/>
+<typeInfo handle="=InnerClassFrameWork/src&lt;demo{Outer.java[Outer[Inner" modifiers="8" timestamp="1487072124157"/>
+<typeInfo handle="=oracleCoreJava/src&lt;interface_java{Bicyle.java[Bicyle" modifiers="512" timestamp="1493885770659"/>
+<typeInfo handle="=developer/src&lt;constructor{Test.java[Test" modifiers="1" timestamp="1482590424115"/>
+</typeInfoHistroy>

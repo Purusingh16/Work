@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  
+  <test name="Test">
+<parameter name="os name" value="Linux"/> 
+  <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="package2.ParameteriseDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

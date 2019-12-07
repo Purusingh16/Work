@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+	<Environment>
+		<variable>
+			<name>machine</name>
+			<value>10.42.63.91</value>
+			<Browser>IE</Browser>			
+		</variable>
+		<variable>
+			<name>machine</name>
+			<value>10.42.63.21</value>
+			<Browser>Firefox</Browser>			
+		</variable>
+			
+	</Environment>

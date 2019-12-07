@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">User should open application &quot;http:&#x2F;&#x2F;automationpractice.com&quot; on &quot;firefox&quot; browser (FAILED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User clicks on sign in link (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User enters &quot;seleniumpr@gmail.com&quot; in username field (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User enters &quot;seleniumpr&quot; in password field (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user clicks Signin button (SKIPPED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User should be login (SKIPPED)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="4855" started-at="2018-01-14T07:18:14Z" finished-at="2018-01-14T07:18:19Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberRunner.JavaTestRunner@783e6358]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="4855" started-at="2018-01-14T07:18:14Z" finished-at="2018-01-14T07:18:19Z">
+      <class name="cucumberRunner.JavaTestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberRunner.JavaTestRunner@783e6358]" name="setUpClass" is-config="true" duration-ms="465" started-at="2018-01-14T12:48:14Z" finished-at="2018-01-14T12:48:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberRunner.JavaTestRunner@783e6358]" name="runScenario" duration-ms="4141" started-at="2018-01-14T12:48:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-01-14T12:48:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing login scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Unable to find a matching set of capabilities
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'PURUSHOTTAM', ip: '192.168.230.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:   0x46c297 - <no info>
+   1:   0x4388b6 - <no info>
+   2:   0x4225f2 - <no info>
+   3:   0x406389 - <no info>
+   4:   0x40cc97 - <no info>
+   5:   0x657a89 - <no info>
+   6:   0x4185b6 - <no info>
+   7:   0x6535a1 - <no info>
+   8: 0x75767c04 - BaseThreadInitThunk
+   9: 0x7721ad8f - RtlInitializeExceptionChain]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Unable to find a matching set of capabilities
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'PURUSHOTTAM', ip: '192.168.230.2', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_131'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:   0x46c297 - <no info>
+   1:   0x4388b6 - <no info>
+   2:   0x4225f2 - <no info>
+   3:   0x406389 - <no info>
+   4:   0x40cc97 - <no info>
+   5:   0x657a89 - <no info>
+   6:   0x4185b6 - <no info>
+   7:   0x6535a1 - <no info>
+   8: 0x75767c04 - BaseThreadInitThunk
+   9: 0x7721ad8f - RtlInitializeExceptionChain
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+	at utils.SeleniumUtils.openBrowser(SeleniumUtils.java:20)
+	at stepDefination.LoginSteps.user_should_open_application_url_on_firefox_browser(LoginSteps.java:23)
+	at ✽.User should open application "http://automationpractice.com" on "firefox" browser(src/test/resources/featurefiles/firstcucumberdemo.feature:26)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">User should open application &quot;http:&#x2F;&#x2F;automationpractice.com&quot; on &quot;firefox&quot; browser (FAILED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User clicks on sign in link (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User enters &quot;seleniumpr@gmail.com&quot; in username field (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User enters &quot;seleniumpr&quot; in password field (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user clicks Signin button (SKIPPED)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">User should be login (SKIPPED)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberRunner.JavaTestRunner@783e6358]" name="tearDownClass" is-config="true" duration-ms="88" started-at="2018-01-14T12:48:19Z" finished-at="2018-01-14T12:48:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberRunner.JavaTestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

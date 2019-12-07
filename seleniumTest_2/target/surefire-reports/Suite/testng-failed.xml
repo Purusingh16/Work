@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="uploadFile" value="test.txt"/>
+  <parameter name="browserName" value="firefox"/>
+  <listeners>
+    <listener class-name="utils.TestListener"/>
+  </listeners>
+  <test name="FirefoxTest">
+    <parameter name="uploadFile" value="test.txt"/>
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="testScripts.TestContactUs"/>
+    </classes>
+  </test> <!-- FirefoxTest -->
+</suite> <!-- Failed suite [Suite] -->

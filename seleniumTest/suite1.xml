@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false" >
+<parameter name="email" value="purusingh16@test.com"/>
+<parameter name="password" value="test16"/>
+<parameter name="homePageTitle" value="MY ACCOUNT"/>
+<test name="FirefoxTest">
+<parameter name="browserName" value="firefox"/>
+  <classes>
+      <class name="testScripts.TestLoginPage1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

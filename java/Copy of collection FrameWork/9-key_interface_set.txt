@@ -1,0 +1,5 @@
+*it is the child interface of Collection.
+
+*If we want to represent a group of individual objects as a single entity where 
+duplicates are not allowed and insertion order not preserved then we should go for 
+set.

@@ -1,0 +1,80 @@
+An array is an indexed Collection of fixed number of homogeneous data elements.
+The main advantage of Array is we can represent multiple values with a single variable.
+So that reusability of the code will be improved.
+
+Limitations of Object type Arrays:
+Array are fixed in size i.e once we created an array with some size there is no 
+chance of increasing or decreasing it's size based on our requirement.Hence to use 
+arrays compulsary we should know the size in advance which may not possible always.
+
+2.Array can hold only homogeneous data elements.
+Ex:-
+Student[] s=new Student[10000];
+s[0]=new Student();(correct)
+s[1]=new Customer();(wrong)
+
+But we can resolve this problems by using Object Arrays.
+Object[] o=new Object[10000];
+o[0]=new Student();(correct)
+o[1]=new Customer();(correct)
+
+Array concept is not implemented based on some standered data structure 
+hence readymade method support is not available for every requirement we have to write
+the code explicitly.which is complexity of programing. 
+
+To overcome the above limitations of array we should go for collections.
+1.Collection are growable in nature i.e Based on our requirement we can increase(or)
+Decrease the size.
+2.Collection can hold both homogeneous & Heterogenous elements.
+3.Every collection class is implemented based on some standered data structure.hence 
+readymade method support is available for requirement.Being a programmer we have to 
+use this method and we are not responsible to provide implementation. 
+
+
+Difference between Array & Collections:
+------------------------------------------
+
+	Arrays
+--------------------------										
+1.Array are fixed in size.					
+											
+2.Wrt memory array are not 
+recommended to use.
+
+3.Wrt performance Array are recommended
+to use.
+
+4.Array can hold homogeneous datatypes.
+
+5.There is no underlying data structure
+for arrays and hence readymade method
+support is not available.
+
+5.Array can hold both primitives and 
+object tpes.
+
+Collection
+--------------------------------------
+1.Collection are growable in nature.i.e
+based on our requirement we can increase
+or decrease the size.
+											
+2.Wrt memory collection are  
+recommended to use.
+
+3.Wrt performance Collection not are recommended
+to use.
+
+4.Collection can hold both homogeneous & heterogeneous elements.
+
+5.collection can hold only objects but not primitives.
+
+what is collection?
+--------------------
+If we want to represent a group of individual objects as a single entity then 
+we should go for Collection.
+
+what is Collection framework?
+-----------------------------
+It defines several classes and interfaces which can be used a group of objects as 
+single entity.

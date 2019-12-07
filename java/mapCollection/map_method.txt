@@ -1,0 +1,15 @@
+Object put(Object key,Object value)
+void putAll(map m)
+Object get(Object key)
+Object remove(Object key)
+boolean containsKey(Object key)
+boolean containsValue(Object value)
+boolean isEmpty()
+int size()
+void clear();
+
+collection views of map
+=========================
+1.Set keySet();
+2.Collection Values();
+3.Set entrySet();

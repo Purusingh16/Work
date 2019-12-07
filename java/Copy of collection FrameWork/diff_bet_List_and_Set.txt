@@ -1,0 +1,10 @@
+		List
+---------------------
+*Duplicates are allowed.
+*Insertion order preserved.
+
+
+		Set
+-------------------------
+*Duplicates are not allowed.
+*Insertion order not preserved.

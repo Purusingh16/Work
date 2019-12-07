@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Loginsrv</servlet-name>
+    <servlet-class>Loginsrv</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>citizenregistersrv</servlet-name>
+    <servlet-class>citizenregistersrv</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>adminsrv</servlet-name>
+    <servlet-class>adminsrv</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>uidallocationsrv</servlet-name>
+    <servlet-class>uidallocationsrv</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>acceptsrv</servlet-name>
+    <servlet-class>acceptsrv</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>rejectsrv</servlet-name>
+    <servlet-class>rejectsrv</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>permanentsrv</servlet-name>
+    <servlet-class>permanentsrv</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RTAuidsrv</servlet-name>
+    <servlet-class>RTAuidsrv</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RTAextraformprocess</servlet-name>
+    <servlet-class>RTAextraformprocess</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RTAofficerhomesrv</servlet-name>
+    <servlet-class>RTAofficerhomesrv</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RTAacceptsrv</servlet-name>
+    <servlet-class>RTAacceptsrv</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RTArejectsrv</servlet-name>
+    <servlet-class>RTArejectsrv</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>permanentrtaview</servlet-name>
+    <servlet-class>permanentrtaview</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Licenseallotsrv</servlet-name>
+    <servlet-class>Licenseallotsrv</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>applyforpassport</servlet-name>
+    <servlet-class>applyforpassport</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>applyforpassportform1</servlet-name>
+    <servlet-class>applyforpassportform1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>policesrv</servlet-name>
+    <servlet-class>policesrv</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>policeacceptsrv</servlet-name>
+    <servlet-class>policeacceptsrv</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>policerejectsrv</servlet-name>
+    <servlet-class>policerejectsrv</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>passportdata</servlet-name>
+    <servlet-class>passportdata</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>passportaccept</servlet-name>
+    <servlet-class>passportaccept</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>passportreject</servlet-name>
+    <servlet-class>passportreject</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>passportuid</servlet-name>
+    <servlet-class>passportuid</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>policeacceptsrv1</servlet-name>
+    <servlet-class>policeacceptsrv1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>passportaccept11</servlet-name>
+    <servlet-class>passportaccept11</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Loginsrv</servlet-name>
+    <url-pattern>/admin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>citizenregistersrv</servlet-name>
+    <url-pattern>/citizendetails</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>adminsrv</servlet-name>
+    <url-pattern>/adminsrv</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>uidallocationsrv</servlet-name>
+    <url-pattern>/uidallocationsrv</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>acceptsrv</servlet-name>
+    <url-pattern>/acceptsrv</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>rejectsrv</servlet-name>
+    <url-pattern>/rejectsrv</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>permanentsrv</servlet-name>
+    <url-pattern>/permanentsrv</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RTAuidsrv</servlet-name>
+    <url-pattern>/RTAuidsrv</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RTAextraformprocess</servlet-name>
+    <url-pattern>/RTAextraformprocess</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RTAofficerhomesrv</servlet-name>
+    <url-pattern>/RTAofficerhomesrv</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RTAacceptsrv</servlet-name>
+    <url-pattern>/RTAacceptsrv</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RTArejectsrv</servlet-name>
+    <url-pattern>/RTArejectsrv</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>permanentrtaview</servlet-name>
+    <url-pattern>/permanentrtaview</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Licenseallotsrv</servlet-name>
+    <url-pattern>/Licenseallotsrv</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>applyforpassport</servlet-name>
+    <url-pattern>/applyforpassport</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>applyforpassportform1</servlet-name>
+    <url-pattern>/applyforpassportform1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>policesrv</servlet-name>
+    <url-pattern>/policesrv</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>policeacceptsrv</servlet-name>
+    <url-pattern>/policeacceptsrv</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>policerejectsrv</servlet-name>
+    <url-pattern>/policerejectsrv</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>passportdata</servlet-name>
+    <url-pattern>/passportdata</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>passportaccept</servlet-name>
+    <url-pattern>/passportaccept</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>passportreject</servlet-name>
+    <url-pattern>/passportreject</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>passportuid</servlet-name>
+    <url-pattern>/passportuid</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>policeacceptsrv1</servlet-name>
+    <url-pattern>/policeacceptsrv1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>passportaccept11</servlet-name>
+    <url-pattern>/passportaccept11</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

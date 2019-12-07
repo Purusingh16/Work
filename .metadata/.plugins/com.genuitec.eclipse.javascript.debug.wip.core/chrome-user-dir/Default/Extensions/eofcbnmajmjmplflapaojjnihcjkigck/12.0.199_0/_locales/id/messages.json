@@ -1,0 +1,106 @@
+{
+   "safeShopBestButtonNextOffer": {
+      "message": "Penawaran selanjutnya %s di %s"
+   },
+   "safeShopBestButtonSave": {
+      "message": "Hemat %s %s di %s"
+   },
+   "safeShopBestTitleBestHere": {
+      "message": "Penawaran terbaik di sini!"
+   },
+   "safeShopBestTitleCheaperFound": {
+      "message": "Harga termurah ditemukan!"
+   },
+   "safeShopCoupons": {
+      "message": "%s kupon"
+   },
+   "safeShopOffers": {
+      "message": "%s penawaran mulai %s"
+   },
+   "sasClickToCopy": {
+      "message": "Klik untuk menyalin"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Kode disalin ke clipboard."
+   },
+   "sasCouponCodeTitle": {
+      "message": "Kode kupon"
+   },
+   "sasCouponInstructionsTitle": {
+      "message": "Petunjuk untuk menukarkan kupon"
+   },
+   "sasCouponsSaving": {
+      "message": "Hemat hingga %s"
+   },
+   "sasCouponsTitle": {
+      "message": "%s kupon tersedia!"
+   },
+   "sasHintBestOffer": {
+      "message": "Penawaran terbaik"
+   },
+   "sasHintBestOfferDesc": {
+      "message": "Langsung ke harga terbaik untuk produk ini."
+   },
+   "sasHintCoupons": {
+      "message": "Lihat kupon"
+   },
+   "sasHintCouponsDesc": {
+      "message": "Lihat kupon & simpan"
+   },
+   "sasHintOtherOffers": {
+      "message": "Bandingkan harga"
+   },
+   "sasHintOtherOffersDesc": {
+      "message": "Lihat penawaran lain yang setara"
+   },
+   "sasHintSettings": {
+      "message": "Pengaturan"
+   },
+   "sasHintSettingsDesc": {
+      "message": "Sesuaikan pengaturan Anda di sini"
+   },
+   "sasNoCouponCode": {
+      "message": "Kode tidak diperlukan"
+   },
+   "sasOptionsDisableAll": {
+      "message": "Nonaktifkan SafePrice di semua situs selama 24 jam"
+   },
+   "sasOptionsDisableOnSite": {
+      "message": "Nonaktifkan SafePrice di %s selama 24 jam"
+   },
+   "sasOptionsEnableAll": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for all domains",
+      "message": "Aktifkan SafePrice di semua situs"
+   },
+   "sasOptionsEnableOnSite": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for one domain. %s: name of the domain",
+      "message": "Aktifkan SafePrice di %s"
+   },
+   "sasOptionsNeverShowOnSite": {
+      "message": "Jangan tampilkan kupon di %s"
+   },
+   "sasProductName": {
+      "message": "SafePrice"
+   },
+   "sasPromoAction": {
+      "message": "Sepertinya menarik, tutup pesan ini"
+   },
+   "sasPromoDescription": {
+      "message": "SafePrice menemukan penawaran terbaik untuk produk yang Anda inginkan. Lihat harga, bandingkan toko, baca ulasan pelanggan, verifikasi reputasi pengecer, lihat video produk, dan dapatkan kupon langsung di browser web Anda."
+   },
+   "sasPromoNewBadge": {
+      "message": "Baru"
+   },
+   "sasPromoOptout": {
+      "message": "Nonaktifkan SafePrice"
+   },
+   "sasRecommendedOfferMessage": {
+      "message": "Direkomendasikan"
+   },
+   "sasRecommendedOfferTitle": {
+      "message": "Pengecer yang dapat dipercaya ini punya harga, ulasan, dan kualitas layanan yang bagus."
+   },
+   "sasShippingLabel": {
+      "message": "S/H dari"
+   }
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browserName" value="chrome"/>
+  <listeners>
+    <listener class-name="utils.TestListener"/>
+  </listeners>
+  <test name="ChromeTest">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="testScripts.TestLoginPage"/>
+    </classes>
+  </test> <!-- ChromeTest -->
+  <test name="ChromeTest(failed)" parallel="tests">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="testScripts.TestLoginPage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyLogin"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testScripts.TestLoginPage -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

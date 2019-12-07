@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+  <test name="FireFoxTest">
+  <parameter name="myBrowser" value="firefox"/>
+    <classes>
+      <class name="testNG2.ParallelTestExecution"/>
+      <class name="testNG2.ParallelTestExecution1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="ChromeTest">
+    <parameter name="myBrowser" value="chrome"/>
+    <classes>
+      <class name="testNG2.ParallelTestExecution"/>
+      <class name="testNG2.ParallelTestExecution1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

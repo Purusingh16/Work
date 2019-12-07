@@ -1,0 +1,76 @@
+String Manipulations:
+--------------------------------------
+to perform String operations in java,JAVA has provided the complete predefined
+library in the form of the following classes:
+
+1.java.lang.String
+2.java.lang.StringBuffer
+3.java.lang.StringBuilder
+4.java.util.StringTokenizer
+
+Q.what is difference between String and StringBuffer?
+--------------------------------------------------------------------------------------
+Ans:
+String class objects are immutable objects, Immutable objects are java objects,
+they are not allowing modifications on  their content,if we are trying to perform 
+modifications but the resultant data will not be stored back in original object,
+here the resultant data will be stored by creating new object.
+
+StringBuffer class objects are mutable objects, these objects are allowing 
+modifications directly on their content.
+
+Note: String class objects are fixed length objects,but Stringbuffer class 
+objects are variable length objects.
+
+Q.What are the difference between StringBuffer and StringBuilder?
+-----------------------------------------------------------------------------------------------------------
+Ans:
+1.StringBuffer class was introduced in JDK1.0 version.
+    StringBuilder class was introduced in JDK5.0 version.
+
+2.StringBuffer is sysnchronized.
+    StringBuilder is non-sysnchronized.
+
+3.Almost all the methods of StringBuffer are synchronized methods.
+    no method is sysnchronized method in StringBuilder.
+
+4.StringBuffer is able to allow only one thread to access data.
+    StringBuilder is able to allow more than one thread to access data.
+
+5.Stringbuffer is able to follow sequential kind of execution.
+    StirngBuilder is able to follow parallel kind of execution.
+
+6.StringBuffer will increase execution time.
+   StringBuilder will reduce execution time.
+
+7.StringBuffer will reduce application performance.
+    StringBuilder will improve application performance.
+
+8.StringBuffer will give guarantee for Data Consistency.
+    StringBuilder will not give guarantee for data consistency.
+
+9.StringBufffer is threadsafe.
+    StringBuilder is not threadsafe.
+
+Q.What is StringTokenization and how it is possible to perform 
+     StringTokenization in java applications?
+Ans:
+The process of deviding a String into no of pieces[Tokens] is called as String 
+Tokenization.
+
+EX:
+String data="Durga Software Solutions";
+
+Tokens:Durga
+                Software
+                 Solutions
+
+To perform String Tokenization in java applications,JAVA has provided a 
+predefined class in the form of java.util.StringTokenizer.
+
+We will use StringTokenization in the folloeing requirements.
+1.To prepare lexical Analysis or lexial analyzer components i compiler 
+     constructors.
+2.To convert numberic values from word representation to numeric represen
+tations.
+		

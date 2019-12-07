@@ -1,0 +1,106 @@
+{
+   "safeShopBestButtonNextOffer": {
+      "message": "Volgende aanbod %s op %s"
+   },
+   "safeShopBestButtonSave": {
+      "message": "Bespaar %s %s op %s"
+   },
+   "safeShopBestTitleBestHere": {
+      "message": "Dit is het beste aanbod!"
+   },
+   "safeShopBestTitleCheaperFound": {
+      "message": "Er zijn lagere prijzen gevonden!"
+   },
+   "safeShopCoupons": {
+      "message": "%s waardebonnen"
+   },
+   "safeShopOffers": {
+      "message": "%s aanbiedingen vanaf %s"
+   },
+   "sasClickToCopy": {
+      "message": "Klik hier om te kopiëren"
+   },
+   "sasCouponCodeCopied": {
+      "message": "De code is naar het klembord gekopieerd."
+   },
+   "sasCouponCodeTitle": {
+      "message": "Waardeboncode"
+   },
+   "sasCouponInstructionsTitle": {
+      "message": "Waardebon inwisselen - instructies"
+   },
+   "sasCouponsSaving": {
+      "message": "Tot %s besparen"
+   },
+   "sasCouponsTitle": {
+      "message": "%s waardebonnen beschikbaar"
+   },
+   "sasHintBestOffer": {
+      "message": "Beste aanbod"
+   },
+   "sasHintBestOfferDesc": {
+      "message": "Ga direct naar de beste prijs voor dit product."
+   },
+   "sasHintCoupons": {
+      "message": "Waardebonnen weergeven"
+   },
+   "sasHintCouponsDesc": {
+      "message": "Waardebonnen weergeven en opslaan"
+   },
+   "sasHintOtherOffers": {
+      "message": "Prijzen vergelijken"
+   },
+   "sasHintOtherOffersDesc": {
+      "message": "Meer vergelijkbare aanbiedingen weergeven"
+   },
+   "sasHintSettings": {
+      "message": "Instellingen"
+   },
+   "sasHintSettingsDesc": {
+      "message": "Hier kunt u uw instellingen aanpassen"
+   },
+   "sasNoCouponCode": {
+      "message": "Geen code vereist"
+   },
+   "sasOptionsDisableAll": {
+      "message": "SafePrice 24 uur uitschakelen op alle sites"
+   },
+   "sasOptionsDisableOnSite": {
+      "message": "SafePrice 24 uur uitschakelen op %s"
+   },
+   "sasOptionsEnableAll": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for all domains",
+      "message": "SafePrice inschakelen op alle sites"
+   },
+   "sasOptionsEnableOnSite": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for one domain. %s: name of the domain",
+      "message": "SafePrice inschakelen op %s"
+   },
+   "sasOptionsNeverShowOnSite": {
+      "message": "Geen waardebonnen weergeven op %s"
+   },
+   "sasProductName": {
+      "message": "SafePrice"
+   },
+   "sasPromoAction": {
+      "message": "Klinkt goed. Bericht sluiten."
+   },
+   "sasPromoDescription": {
+      "message": "SafePrice zoekt de beste aanbiedingen voor het product dat u wilt aanschaffen. Controleer prijzen, vergelijk winkels, lees recensies van andere klanten, trek de reputatie van de handelaar na, bekijk productvideo's en bestel waardebonnen vanuit uw webbrowser."
+   },
+   "sasPromoNewBadge": {
+      "message": "Nieuw"
+   },
+   "sasPromoOptout": {
+      "message": "SafePrice uitschakelen"
+   },
+   "sasRecommendedOfferMessage": {
+      "message": "Aanbevolen"
+   },
+   "sasRecommendedOfferTitle": {
+      "message": "Deze betrouwbare handelaar wordt gekenmerkt door gunstige prijzen, positieve beoordelingen en een goede dienstverlening."
+   },
+   "sasShippingLabel": {
+      "message": "Verpakkings-/verzendkosten vanaf"
+   }
+}

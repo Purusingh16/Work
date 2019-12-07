@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Test">
+  <!-- <groups>
+  <run>
+  <include name="regression"/>
+  <exclude name="smoke"/>
+  </run>
+  </groups> -->
+    <classes>
+      <class name="testNG3.TestGroup1"/>
+       <class name="testNG3.TestGroup2"/>
+        <class name="testNG3.TestGroup3"/>
+    </classes>
+  </test> <!-- Test --> 
+</suite> <!-- Suite -->

@@ -1,0 +1,106 @@
+{
+   "safeShopBestButtonNextOffer": {
+      "message": "পরবর্তী প্রস্তাব %s এখানে %s"
+   },
+   "safeShopBestButtonSave": {
+      "message": "বাঁচান %s %s এখানে %s"
+   },
+   "safeShopBestTitleBestHere": {
+      "message": "সর্বোত্তম প্রস্তাব এখানে!"
+   },
+   "safeShopBestTitleCheaperFound": {
+      "message": "সর্বনিম্ন দাম পাওয়া গেছে!"
+   },
+   "safeShopCoupons": {
+      "message": "%s কুপন সমূহ"
+   },
+   "safeShopOffers": {
+      "message": "%s প্রস্তাব শুরু হচ্ছে %s"
+   },
+   "sasClickToCopy": {
+      "message": "অনুলিপি করতে ক্লিক করুন"
+   },
+   "sasCouponCodeCopied": {
+      "message": "কোড ক্লিপবোর্ডে অনুলিপি করা হয়েছে"
+   },
+   "sasCouponCodeTitle": {
+      "message": "কুপন সংকেত"
+   },
+   "sasCouponInstructionsTitle": {
+      "message": "কুপন পুনরুদ্ধার করার প্রক্রিয়াসমূহ"
+   },
+   "sasCouponsSaving": {
+      "message": "সংরক্ষণ করুন সর্বোচ্চ %s"
+   },
+   "sasCouponsTitle": {
+      "message": "%s কুপন পাওয়া যাচ্ছে!"
+   },
+   "sasHintBestOffer": {
+      "message": "সর্বোত্তম প্রস্তাব"
+   },
+   "sasHintBestOfferDesc": {
+      "message": "এই পণ্যটির জন্য সরাসরি সর্বোত্তম মূল্যে যাবে."
+   },
+   "sasHintCoupons": {
+      "message": "কুপন সমূহ দেখুন"
+   },
+   "sasHintCouponsDesc": {
+      "message": "কুপন সমূহ দেখুন এবং সংরক্ষণ"
+   },
+   "sasHintOtherOffers": {
+      "message": "মূল্যসমূহ তুলনা"
+   },
+   "sasHintOtherOffersDesc": {
+      "message": "অন্যান্য তুলনাযোগ্য প্রস্তাবসমূহ দেখুন"
+   },
+   "sasHintSettings": {
+      "message": "সেটিংস"
+   },
+   "sasHintSettingsDesc": {
+      "message": "এখানে আপনার সেটিংসমূহ পরিবর্তন করুন"
+   },
+   "sasNoCouponCode": {
+      "message": "কোনো কোড দরকার নেই"
+   },
+   "sasOptionsDisableAll": {
+      "message": "সব সাইটে ২৪ ঘন্টার জন্য SafePrice নিষ্ক্রিয় করুন"
+   },
+   "sasOptionsDisableOnSite": {
+      "message": "%s এ ২৪ ঘন্টার জন্য SafePrice নিষ্ক্রিয় করুন"
+   },
+   "sasOptionsEnableAll": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for all domains",
+      "message": "সব সাইটেই সেফ-প্রাইস চালু করুন"
+   },
+   "sasOptionsEnableOnSite": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for one domain. %s: name of the domain",
+      "message": "%s এ সেফ-প্রাইস চালু করুন"
+   },
+   "sasOptionsNeverShowOnSite": {
+      "message": "টিকিট দেখাবেনা এখানে %s"
+   },
+   "sasProductName": {
+      "message": "SafePrice"
+   },
+   "sasPromoAction": {
+      "message": "সব ঠিক আছে, বার্তাটি বন্ধ করুন"
+   },
+   "sasPromoDescription": {
+      "message": "আপনার প্রয়োজনীয় পণ্যের জন্য SafePrice সর্বোত্তম বণ্টন খুঁজবে. মূল্য পরীক্ষা করুন, দোকান তুলনা করুন, ক্রেতাদের পর্যালোচনা পড়ুন, বিক্রেতার খ্যাতি পরীক্ষা করুন, পণ্যের ভিডিও দেখুন, এবং আপনার ব্রাউজারেই টিকিট পান."
+   },
+   "sasPromoNewBadge": {
+      "message": "নতুন"
+   },
+   "sasPromoOptout": {
+      "message": "SafePrice অক্ষম করুন"
+   },
+   "sasRecommendedOfferMessage": {
+      "message": "প্রস্তাবিত"
+   },
+   "sasRecommendedOfferTitle": {
+      "message": "এই বিশ্বস্ত রিটেইলার  সঙ্গত মূল্যে, উচ্চমানের পরিষেবা প্রদান করেন এবং নামডাকও আছে."
+   },
+   "sasShippingLabel": {
+      "message": "S/H থেকে"
+   }
+}

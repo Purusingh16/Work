@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+  <test name="Test">
+      <groups>
+      <run>
+     <!--     <include name="Regression"/>-->
+          <exclude name="Sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="package1.GroupsDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

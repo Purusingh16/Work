@@ -1,0 +1,106 @@
+{
+   "safeShopBestButtonNextOffer": {
+      "message": "Další nabídka: %s na %s"
+   },
+   "safeShopBestButtonSave": {
+      "message": "Ušetřit %s %s na %s"
+   },
+   "safeShopBestTitleBestHere": {
+      "message": "Nejlepší nabídka zde!"
+   },
+   "safeShopBestTitleCheaperFound": {
+      "message": "Nalezeny nižší ceny!"
+   },
+   "safeShopCoupons": {
+      "message": "%s kupónů"
+   },
+   "safeShopOffers": {
+      "message": "%s nabídek od %s"
+   },
+   "sasClickToCopy": {
+      "message": "Klikněte pro zkopírování"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Kód byl zkopírován do schránky."
+   },
+   "sasCouponCodeTitle": {
+      "message": "Kód kupónu"
+   },
+   "sasCouponInstructionsTitle": {
+      "message": "Návod na použití kupónu"
+   },
+   "sasCouponsSaving": {
+      "message": "Ušetřit až %s"
+   },
+   "sasCouponsTitle": {
+      "message": "Je k dispozici %s kupónů!"
+   },
+   "sasHintBestOffer": {
+      "message": "Nejlepší nabídka"
+   },
+   "sasHintBestOfferDesc": {
+      "message": "Přejít rovnou na nejlepší cenu pro tento produkt."
+   },
+   "sasHintCoupons": {
+      "message": "Prohlédnout kupóny"
+   },
+   "sasHintCouponsDesc": {
+      "message": "Prohlédnout kupóny a ušetřit"
+   },
+   "sasHintOtherOffers": {
+      "message": "Porovnat ceny"
+   },
+   "sasHintOtherOffersDesc": {
+      "message": "Zobrazit další porovnatelné nabídky"
+   },
+   "sasHintSettings": {
+      "message": "Nastavení"
+   },
+   "sasHintSettingsDesc": {
+      "message": "Zde můžete opravit svá nastavení"
+   },
+   "sasNoCouponCode": {
+      "message": "Žádný kód není potřeba"
+   },
+   "sasOptionsDisableAll": {
+      "message": "Zakázat SafePrice na 24 hodin pro všechny stránky"
+   },
+   "sasOptionsDisableOnSite": {
+      "message": "Zakázat SafePrice na 24 hodin pro %s"
+   },
+   "sasOptionsEnableAll": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for all domains",
+      "message": "Povolit SafePrice pro všechny stránky"
+   },
+   "sasOptionsEnableOnSite": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for one domain. %s: name of the domain",
+      "message": "Povolit SafePrice pro %s"
+   },
+   "sasOptionsNeverShowOnSite": {
+      "message": "Nezobrazovat kupóny na %s"
+   },
+   "sasProductName": {
+      "message": "SafePrice"
+   },
+   "sasPromoAction": {
+      "message": "To zní dobře, zavřít tuto zprávu"
+   },
+   "sasPromoDescription": {
+      "message": "SafePrice najde nejlepší nabídku pro produkt, který hledáte. Zjistěte ceny, porovnejte obchody, přečtěte si hodnocení zákazníků, ověřte reputaci obchodníka, pusťte si videa o produktu nebo získejte slevové kupóny - a to vše ve vašem prohlížeči."
+   },
+   "sasPromoNewBadge": {
+      "message": "Novinka"
+   },
+   "sasPromoOptout": {
+      "message": "Zakázat SafePrice"
+   },
+   "sasRecommendedOfferMessage": {
+      "message": "Doporučujeme"
+   },
+   "sasRecommendedOfferTitle": {
+      "message": "Tento důvěryhodný obchodník má dobré ceny, hodnocení a kvalitu služeb."
+   },
+   "sasShippingLabel": {
+      "message": "Poštovné a balné od"
+   }
+}

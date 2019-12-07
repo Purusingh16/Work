@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;assertionDemo.NewTest&apos; to &apos;TestLoginScenario&apos;&#x0D;&#x0A;- Original project: &apos;selenium_Learning&apos;&#x0D;&#x0A;- Original element: &apos;assertionDemo.NewTest&apos;&#x0D;&#x0A;- Renamed element: &apos;assertionDemo.TestLoginScenario&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;NewTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;assertionDemo{NewTest.java[NewTest" matchStrategy="1" name="TestLoginScenario" qualified="false" references="true" similarDeclarations="false" stamp="1480826048524" textual="false" version="1.0"/>
+</session>

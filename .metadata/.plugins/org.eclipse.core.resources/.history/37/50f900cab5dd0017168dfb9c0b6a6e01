@@ -1,0 +1,9 @@
+package com.wordpress.testcaes;
+
+import org.testng.annotations.Test;
+
+public class VerifyAmericanScript {
+  @Test
+  public void f() {
+  }
+}

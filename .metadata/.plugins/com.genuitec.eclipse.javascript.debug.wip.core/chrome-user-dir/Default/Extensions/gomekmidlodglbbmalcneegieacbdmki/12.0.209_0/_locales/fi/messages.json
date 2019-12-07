@@ -1,0 +1,535 @@
+{
+   "InternalTabs": {
+      "message": "Paikallisia tiedostoja ja sisäisiä välilehtiä ei voi luokitella"
+   },
+   "VoteThank": {
+      "message": "Kiitos äänestämisestä! Antamasi ääni on talletettu."
+   },
+   "anonymousUser": {
+      "message": "Anonyymi käyttäjä"
+   },
+   "aosSafeZoneButtonMsgOpen": {
+      "message": "Avaa Avast SafeZone"
+   },
+   "aosSafeZoneButtonMsgYes": {
+      "message": "Ota käyttöön"
+   },
+   "aosSafeZoneLinkMsgLearnMore": {
+      "message": "Lue lisää"
+   },
+   "aosSafeZoneMsgDescAds": {
+      "message": "Avast-vinkki: SafeZone-selain suojaa jäljittäviltä evästeiltä ja haittamainonnalta estämällä mainoksia."
+   },
+   "aosSafeZoneMsgDescBank": {
+      "message": "Maksa verkkomaksuja turvallisesti käyttämällä sen sijaan Avast SafeZone -selainta."
+   },
+   "aosSafeZoneMsgDescShopping": {
+      "message": "Varmista parhaat tarjoukset ja maksa ne suojatusti Avast SafeZone -selaimen avulla."
+   },
+   "aosSafeZoneMsgDescVideo": {
+      "message": "Tiesitkö, että voit ladata videoita helposti suoratoistosivustoilta?"
+   },
+   "aosSafeZoneMsgDontShow": {
+      "message": "Älä näytä tätä enää uudelleen"
+   },
+   "avastLogoOnlineSecuritySuffix": {
+      "message": "Verkkoturvallisuus"
+   },
+   "baAllowAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Salli kaikki seurantajärjestelmät"
+   },
+   "baAllowBlockOnAllWebsites": {
+      "description": "Rest of the  >Block all tracking systems\u003C on all websites. (on call to action - link).",
+      "message": "kaikilla verkkosivuilla"
+   },
+   "baBlockAllSystems": {
+      "description": "The call to action (link) portion of messaging: >Block all tracking systems\u003C on all websites.",
+      "message": "Estä kaikki seurantajärjestelmät"
+   },
+   "baGlobalSettingsHeader": {
+      "message": "Yleiset asetukset"
+   },
+   "baMoreSettingsAction": {
+      "message": "Lisää asetuksia"
+   },
+   "baMsgTrackingIsAllowed": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "sallittu"
+   },
+   "baMsgTrackingIsBlocked": {
+      "description": "Mesaging that user can be tracked by page tracking systems - the emphasized portion",
+      "message": "estetty"
+   },
+   "baMsgTrackingSystemsAre": {
+      "description": "Mesaging that user can be tracked by page tracking systems: Tracking systems are currently allowed. (normal font)",
+      "message": "Seurantajärjestelmät on tällä hetkellä"
+   },
+   "baOnWebsite": {
+      "description": "Website portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "verkkosivulla"
+   },
+   "baTrackingSystems": {
+      "description": "Systems portion of 'NN | tracking systems | on website | some.website.com",
+      "message": "seurantajärjestelmää"
+   },
+   "baYouHaveRateSite1": {
+      "description": "1rdpart(beginning) of reputation statement: You rate this site as | negative/positive | reputation. ",
+      "message": "Sinun arviosi tästä sivusta on"
+   },
+   "baYouHaveRateSite2negative": {
+      "description": "2rdpart(negative statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "negatiivinen"
+   },
+   "baYouHaveRateSite2positive": {
+      "description": "2rdpart(positive statement) of: You rate this site as | negative/positive | reputation. ",
+      "message": "positiivinen"
+   },
+   "baYouHaveRateSite3": {
+      "description": "3rdpart(suffix) of: You rated this site as | negative/positive | . ",
+      "message": "."
+   },
+   "castYourVote": {
+      "message": "Anna äänesi"
+   },
+   "checkAll": {
+      "message": "(Valitse kaikki ne aiheet, jotka kuvaavat sisältöä)"
+   },
+   "close": {
+      "message": "Sulje"
+   },
+   "corporate": {
+      "message": "Yrityssivusto"
+   },
+   "currentVote": {
+      "message": "Kokonaisluokitus"
+   },
+   "detailsHeadline": {
+      "message": "Avast on tarkistanut tämän sivuston"
+   },
+   "detailsMalwareNo": {
+      "message": "Haittaohjelmaa ei havaittu"
+   },
+   "detailsMalwareYes": {
+      "message": "Haittaohjelma havaittu!"
+   },
+   "detailsPhishingNo": {
+      "message": "Tietojen kalastelua ei havaittu"
+   },
+   "detailsPhishingYes": {
+      "message": "Tietojen kalastelu havaittu!"
+   },
+   "disabledTab": {
+      "message": "Paikallisia tiedostoja ja sisäisiä välilehtiä ei voi luokitella"
+   },
+   "dntAdTrackingNetworks": {
+      "message": "Ilmoitusten seuranta"
+   },
+   "dntAllowGroupAction": {
+      "message": "Salli kaikki"
+   },
+   "dntAllowTrackerAction": {
+      "message": "Salli"
+   },
+   "dntAllowed": {
+      "message": "sallittu"
+   },
+   "dntAutomaticBlocking": {
+      "description": "Messaging that user can enable/disable automatic tracking of systems",
+      "message": "Seurannan automaattinen esto: "
+   },
+   "dntAutomaticBlockingDisabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is disabled",
+      "message": "Ei käytössä"
+   },
+   "dntAutomaticBlockingEnabled": {
+      "description": "Messaging to be shown when Automatic blocking of trackers: is enabled",
+      "message": "Käytössä"
+   },
+   "dntBlockGroupAction": {
+      "message": "Estä kaikki"
+   },
+   "dntBlockTrackerAction": {
+      "message": "Estä"
+   },
+   "dntBlocked": {
+      "message": "estetty"
+   },
+   "dntHeadline": {
+      "message": "%s tahoa yritti jäljittää sinua"
+   },
+   "dntNetworks": {
+      "message": "Verkot"
+   },
+   "dntNetworksDetected": {
+      "message": "%s verkostoa tunnistettu"
+   },
+   "dntOthersNetworks": {
+      "message": "Muut"
+   },
+   "dntSocialNetworks": {
+      "message": "Sosiaaliset verkostot"
+   },
+   "dntStatusAllAllowed": {
+      "message": "Kaikki sallittu"
+   },
+   "dntStatusAllBlocked": {
+      "message": "Kaikki estetty"
+   },
+   "dntStatusAutoBlocked": {
+      "description": "Messaging to be shown when Automatic blocking of trackers is enabled (each tracker is blocked)",
+      "message": "Estetty"
+   },
+   "dntStatusSomeBlocked": {
+      "message": "Jotkut estetty"
+   },
+   "dntWebAnalyticsNetworks": {
+      "message": "Verkkoanalyysit"
+   },
+   "drugs": {
+      "message": "Alkoholia / Huumeita"
+   },
+   "error": {
+      "message": "Virhe"
+   },
+   "errorUnexpected": {
+      "message": "Odottamaton virhe"
+   },
+   "gambling": {
+      "message": "Uhkapelejä"
+   },
+   "howLike": {
+      "message": "Mitä pidit tästä sivustosta?"
+   },
+   "illegal": {
+      "message": "Laittomia ohjelmia"
+   },
+   "it": {
+      "message": "Tietotekniikkaa / Tiedostojen siirtoa"
+   },
+   "loginAnonymous": {
+      "message": "Anonyyminä käyttäjänä"
+   },
+   "loginDesc": {
+      "message": "Anna my.avast.com kirjautumistietosi:"
+   },
+   "loginError": {
+      "message": "Kirjautuminen epäonnistui"
+   },
+   "loginLogin": {
+      "message": "Kirjautuminen"
+   },
+   "loginLogout": {
+      "message": "Kirjaudu ulos"
+   },
+   "loginName": {
+      "message": "Nimi:"
+   },
+   "loginPswd": {
+      "message": "Salasana:"
+   },
+   "malwareNext": {
+      "message": "Lataa Avast Antivirus"
+   },
+   "malwareSite": {
+      "message": "Tämä sivusto on saattanut vahingoittaa tietokonettasi."
+   },
+   "malwareSiteRec": {
+      "message": "Suosittelemme, että asennat Avast Antivirus -ohjelman tietokoneesi tarkistusta varten."
+   },
+   "news": {
+      "message": "Uutisia / Blogeja"
+   },
+   "noRating": {
+      "message": "Tätä sivustoa ei ole luokiteltu"
+   },
+   "noWeight": {
+      "message": "(ei riittävästi ääniä)"
+   },
+   "others": {
+      "message": "Muut"
+   },
+   "phishingBack": {
+      "message": "Poistu täältä"
+   },
+   "phishingClose": {
+      "message": "Ohita varoitus"
+   },
+   "phishingCreditNumber": {
+      "message": "Olet antamassa salasanaa tai luottokortin numeroa sivulle, jolla on huono maineluokitus. Varmista vielä kertaalleen, että sivusto on luotettava. Henkilökohtaisten tietojen anto epäilyttäville sivustoille voi aiheuttaa tietoturvariskin."
+   },
+   "phishingDesc": {
+      "message": "Tietokalastelu on yritys hankkia arkaluonteisia tietoja, kuten käyttäjänimiä, salasanoja ja luottokorttitietoja..."
+   },
+   "phishingPhishingSite": {
+      "message": "Tämä sivusto on merkitty tietojenkalastelusivustoksi."
+   },
+   "phishingTrust": {
+      "message": "I trust this website"
+   },
+   "phishingWarning": {
+      "message": "Varoitus"
+   },
+   "pornography": {
+      "message": "Pornografiaa"
+   },
+   "ratingAverage": {
+      "message": "Tämä sivusto on luokiteltu keskinkertaiseksi"
+   },
+   "ratingBad": {
+      "message": "Tämä sivusto on luokiteltu huonoksi"
+   },
+   "ratingCommunity": {
+      "message": "%s yhteisöluokitus"
+   },
+   "ratingDone": {
+      "message": "Valmis"
+   },
+   "ratingGood": {
+      "message": "Tämä sivusto on luokiteltu hyväksi"
+   },
+   "ratingLevelAverage": {
+      "message": "Keskimääräinen"
+   },
+   "ratingLevelBad": {
+      "message": "Huono"
+   },
+   "ratingLevelPositive": {
+      "message": "Positiivinen"
+   },
+   "ratingLevelUndefined": {
+      "message": "Puuttuva"
+   },
+   "ratingNegative": {
+      "message": "Miksi arvioit kokemuksesi kielteiseksi?"
+   },
+   "ratingNoRate": {
+      "message": "En halua nyt antaa arvosanaa"
+   },
+   "ratingPending": {
+      "message": "Noudetaan luokitusta"
+   },
+   "ratingPositive": {
+      "message": "Miksi arvioit kokemuksesi myönteiseksi?"
+   },
+   "ratingRate": {
+      "message": "Kuinka arvioisit tämän sivun käyttökokemuksesi?"
+   },
+   "ratingTextAverage": {
+      "message": "tällä sivustolla on huono maine"
+   },
+   "ratingTextBad": {
+      "message": "tämä sivu on turvaton"
+   },
+   "ratingTextPositive": {
+      "message": "tämä sivusto on turvallinen"
+   },
+   "ratingTextUndefined": {
+      "message": "tuntematon sivusto"
+   },
+   "revert": {
+      "description": "Revert",
+      "message": "Palauta"
+   },
+   "safeZoneDecline": {
+      "message": "Älä käytä SafeZonea seuraavalle: "
+   },
+   "safeZoneDesc": {
+      "message": "Suosittelemme, että otat SafeZonen käyttöön"
+   },
+   "safeZoneFeedback": {
+      "message": "Pyydetty URL-osoite on avattu SafeZonessa"
+   },
+   "safeZoneNo": {
+      "message": "Älä ota"
+   },
+   "safeZoneYes": {
+      "message": "Ota käyttöön"
+   },
+   "settingsReset": {
+      "message": "Palauta oletusasetukset"
+   },
+   "settingsSave": {
+      "message": "Tallenna"
+   },
+   "settingscommunityIQ": {
+      "message": "Tietojen jakaminen"
+   },
+   "settingscommunityIQDesc": {
+      "message": "Kytkemällä tämän päälle annat luvan lähettää tiettyjä tietoja anonyymisti Avastille. Saatamme jakaa anonymisoitua tietoa kolmansien osapuolien kanssa."
+   },
+   "settingsdnt": {
+      "message": "Älä seuraa"
+   },
+   "settingsdnt0": {
+      "message": "Yksityisyyssuoja"
+   },
+   "settingsdnt2": {
+      "message": "Älä seuraa"
+   },
+   "settingsdntAdTrackingDesc": {
+      "message": "Estä oletuksena mainosseuranta"
+   },
+   "settingsdntDesc": {
+      "message": "Tunnistaa ja estää ei-toivotut mainokset sekä estää sivustoja jäljittämästä sinua"
+   },
+   "settingsdntOthersDesc": {
+      "message": "Estä muut oletuksena"
+   },
+   "settingsdntSocialDesc": {
+      "message": "Estä oletuksena yhteisöpalvelut"
+   },
+   "settingsdntWebAnalyticsDesc": {
+      "message": "Estä oletuksena nettisivustojen analyysityökalut"
+   },
+   "settingsphishing": {
+      "message": "Tietojen kalastelun esto"
+   },
+   "settingsphishing0": {
+      "message": "Surffaussuoja"
+   },
+   "settingsphishing2": {
+      "message": "Tietojen kalastelun esto"
+   },
+   "settingsphishingDesc": {
+      "message": "Tarkistaa nettisivut haittaohjelmien varalta ja estää tietojen kalastelun"
+   },
+   "settingssafeZone": {
+      "message": "SafeZone"
+   },
+   "settingssafeZoneDesc": {
+      "message": "Käynnistä SafeZone, kun alat käyttää esimerkiksi verkkopankkia (vaatii Avast Antiviruksen)"
+   },
+   "settingsserp": {
+      "message": "Hakukoneiden tulokset"
+   },
+   "settingsserpDesc": {
+      "message": "Salli värien käyttö tulossivulla"
+   },
+   "settingsserpPopupDesc": {
+      "message": "Salli ponnahdusikkunat tulossivulla"
+   },
+   "settingssiteCorrect": {
+      "message": "SiteCorrect"
+   },
+   "settingssiteCorrectAutoDesc": {
+      "message": "Ohita vahvistus ja ohjaa uudelleen automaattisesti oikealle sivustolle"
+   },
+   "settingssiteCorrectDesc": {
+      "message": "Tunnistaa ja korjaa väärin kirjoitetut nettisivuosoitteet ja ohjaa oikealla sivustolle"
+   },
+   "sfzoneAlways": {
+      "message": "Kyllä, aina"
+   },
+   "sfzoneDesc": {
+      "message": "Olet mennyt verkkopankkisivustolle. Haluatko avata sivuston Avast SafeZonessa?"
+   },
+   "sfzoneHeadline": {
+      "message": "Avast SafeZone"
+   },
+   "sfzoneNever": {
+      "message": "Ei koskaan"
+   },
+   "sfzoneNo": {
+      "message": "Ei"
+   },
+   "sfzoneSwitch": {
+      "message": "Vaihda Avast SafeZoneen"
+   },
+   "sfzoneYes": {
+      "message": "Kyllä"
+   },
+   "shopping": {
+      "message": "Ostoksia"
+   },
+   "sideDashboard": {
+      "message": "Minun Avast"
+   },
+   "sideDetails": {
+      "message": "Lue lisää"
+   },
+   "sideRate": {
+      "message": "Anna arvio"
+   },
+   "sideSettings": {
+      "message": "Asetukset"
+   },
+   "sitecorrectAuto": {
+      "message": "Jatkossa ohjaa minut automaattisesti oletetulle oikealle sivustolle"
+   },
+   "sitecorrectBarButton": {
+      "message": "Kyseessä ei ollut virhe, jatka uudelleenohjausta"
+   },
+   "sitecorrectBarMsg": {
+      "message": "SiteCorrect: uudelleenohjaus automaattisesti osoitteesta %s"
+   },
+   "sitecorrectHeadline": {
+      "message": "SiteCorrect"
+   },
+   "sitecorrectHelp": {
+      "message": "Kun haluat muuttaa SiteCorrect-toiminnon asetuksia, valitse ohjelman käyttöliittymästä Lisäsuojaus / Selainsuoja / Asetukset."
+   },
+   "sitecorrectMean": {
+      "message": "Tarkoititko osoitetta %s ?"
+   },
+   "sitecorrectNo": {
+      "message": "En, tarkoitin osoitetta %s"
+   },
+   "sitecorrectText": {
+      "message": "Tämä ei välttämättä ole se sivusto, jonne halusit mennä."
+   },
+   "sitecorrectYes": {
+      "message": "Kyllä"
+   },
+   "social": {
+      "message": "Vapaa-aikaa / Pelaamista"
+   },
+   "thanksHeadline": {
+      "message": "Kiitos luokituksesta!"
+   },
+   "thanksMessage": {
+      "message": "Äänesi on lähetetty."
+   },
+   "title": {
+      "message": "Avast Verkkoturvallisuusasetukset"
+   },
+   "topBarDetails": {
+      "message": "Näytä lisätiedot"
+   },
+   "topBarRatingAverage": {
+      "message": "%s on arvioitu kunnossa olevaksi"
+   },
+   "topBarRatingBad": {
+      "message": "%s on arvioitu vaaralliseksi"
+   },
+   "topBarRatingGood": {
+      "message": "%s on arvioitu turvalliseksi"
+   },
+   "violence": {
+      "message": "Aseita / Väkivaltaa"
+   },
+   "vote": {
+      "message": "Äänestä"
+   },
+   "voteNegative": {
+      "message": "Kielteinen"
+   },
+   "votePositive": {
+      "message": "Myönteinen"
+   },
+   "webrepDisabled": {
+      "message": "WebRep on pois päältä"
+   },
+   "weight1": {
+      "message": "(annettu varsin vähän ääniä)"
+   },
+   "weight2": {
+      "message": "(annettu vähän ääniä)"
+   },
+   "weight3": {
+      "message": "(annettu runsaasti ääniä)"
+   },
+   "whatTypeContent": {
+      "message": "Mitä aiheita tämä sivusto käsittelee?"
+   }
+}

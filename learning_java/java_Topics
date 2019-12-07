@@ -1,0 +1,58 @@
+importance of java:-
+class elements:-
+class Test
+{
+1)variables
+2)methods
+3)constructors
+4)instance blocks
+5)static blocks
+}
+keywords in java:(50)
+data types:-byte,short,int,long,float,double,char,boolean 8
+flow charts:if,else,switch,case,default,break,for,while,do,continue 10
+exception handling:try,catch,finally,throws,throw 5
+object level:new,this,super,instanceof 4
+methods:void,return 2
+java5: enum,assert 2
+un used: goto,const 2
+
+
+sorce file: class,extends,interface,implements,package,import 6
+modifiers:public,private,protected,final,static,abstract,synchronized,strictfp,volatile,transient native 11
+
+java methods:
+1)instance method
+2)static method
+3)normal method
+4)abstract method
+5)accessor methods(getters)
+mutator methods(setters)
+overidden methods
+overriding methods
+final methods
+native methods
+strictfp methods
+public methods
+private methods
+protected methods
+default methods
+instance factory methods
+static factory methods
+pattern methods
+synchronized methods
+non-synchronized methods
+in-line methods
+call-back method
+
+
+java classes:-
+1)normal classes
+2)abstract classes
+3)final classes
+4)strictfp classes
+5)immutable class
+6)mutable class
+7)public class
+8)default class
+/

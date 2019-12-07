@@ -1,0 +1,49 @@
+package testNG5;
+
+import org.testng.annotations.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.BeforeTest;
+
+public class verifyAlert 
+{
+	public WebDriver driver;
+	
+  @Test
+  public void f() throws Exception 
+  {
+	  driver.findElement(By.id("ctl00_mainContent_rbtnl_Trip_1")).click();
+	  driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
+	  driver.findElement(By.linkText(" Pune (PNQ)")).click();
+	  Thread.sleep(3000);
+	  driver.findElement(By.linkText(" Delhi (DEL) ")).click();
+	  Thread.sleep(3000);
+	  driver.findElement(By.linkText("30")).click();
+	  
+	new Select(driver.findElement(By.id("ctl00_mainContent_ddl_Adult"))).selectByVisibleText("1 Adult");
+	new Select(driver.findElement(By.id("ctl00_mainContent_ddl_Child"))).selectByVisibleText("3 Children");
+	new Select(driver.findElement(By.id("ctl00_mainContent_ddl_Infant"))).selectByVisibleText("3 Infants");
+	
+	driver.findElement(By.id("ctl00_mainContent_btn_FindFlights")).click();
+  }
+	@Test
+	public void verifyAlert()
+	{
+		String str=driver.switchTo().alert().getText();
+		System.out.println(str);
+		driver.switchTo().alert().accept();//ok
+//		driver.switchTo().alert().dismiss();//cancel
+		
+	}
+@BeforeTest
+  public void beforeTest() 
+  {
+	  driver=new FirefoxDriver();
+	  driver.get("http://spicejet.com");
+	  driver.manage().window().maximize();
+	  
+  }
+
+}

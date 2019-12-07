@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;project&apos; to &apos;typecastinginjava&apos;&#x0D;&#x0A;- Original project: &apos;developer&apos;&#x0D;&#x0A;- Original element: &apos;developer/src/project&apos;&#x0D;&#x0A;- Renamed element: &apos;developer/src/typecastinginjava&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;project&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;project" name="typecastinginjava" qualified="false" references="true" stamp="1481656537088" textual="false" version="1.0"/>
+</session>

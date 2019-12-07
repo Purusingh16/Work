@@ -1,0 +1,106 @@
+{
+   "safeShopBestButtonNextOffer": {
+      "message": "अगला ऑफ़र %s पर %s बचाएँ"
+   },
+   "safeShopBestButtonSave": {
+      "message": "%s पर %s %s बचाएँ"
+   },
+   "safeShopBestTitleBestHere": {
+      "message": "यहाँ पर सर्वश्रेष्ठ ऑफ़र!"
+   },
+   "safeShopBestTitleCheaperFound": {
+      "message": "न दें!"
+   },
+   "safeShopCoupons": {
+      "message": "%s कूपन"
+   },
+   "safeShopOffers": {
+      "message": "%s से शुरू होने वाले %s ऑफ़र"
+   },
+   "sasClickToCopy": {
+      "message": "प्रतिलिपि बनाने के लिए क्लिक करें"
+   },
+   "sasCouponCodeCopied": {
+      "message": "क्लिपबोर्ड पर कोड की प्रतिलिपि की गई."
+   },
+   "sasCouponCodeTitle": {
+      "message": "कूपन कोड"
+   },
+   "sasCouponInstructionsTitle": {
+      "message": "कूपन रिडीम करने के निर्देश"
+   },
+   "sasCouponsSaving": {
+      "message": "%s प्रतिशत तक सेव करें"
+   },
+   "sasCouponsTitle": {
+      "message": "%s कूपन उपलब्ध हैं!"
+   },
+   "sasHintBestOffer": {
+      "message": "से S/H"
+   },
+   "sasHintBestOfferDesc": {
+      "message": "सीधे इस उत्पाद के सर्वश्रेष्ठ मूल्य पर जाएँ."
+   },
+   "sasHintCoupons": {
+      "message": "कूपन देखें"
+   },
+   "sasHintCouponsDesc": {
+      "message": "कूपन देखें और सेव करें"
+   },
+   "sasHintOtherOffers": {
+      "message": "तुलना मूल्य"
+   },
+   "sasHintOtherOffersDesc": {
+      "message": "अन्य तुलना योग्य ऑफ़र देखें"
+   },
+   "sasHintSettings": {
+      "message": "सेटिंग"
+   },
+   "sasHintSettingsDesc": {
+      "message": "अपनी सेटिंग को यहां पर कस्टमाइज़ करें"
+   },
+   "sasNoCouponCode": {
+      "message": "किसी कोड की आवश्यकता नहीं"
+   },
+   "sasOptionsDisableAll": {
+      "message": "SafePrice को सभी साइटों पर 24 घंटों के लिए अक्षम करें"
+   },
+   "sasOptionsDisableOnSite": {
+      "message": "SafePrice को %s पर 24 घंटों के लिए अक्षम करें"
+   },
+   "sasOptionsEnableAll": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for all domains",
+      "message": "सभी साइटों पर SafePrice सक्षम करें"
+   },
+   "sasOptionsEnableOnSite": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for one domain. %s: name of the domain",
+      "message": "%s पर SafePrice सक्षम करें"
+   },
+   "sasOptionsNeverShowOnSite": {
+      "message": "%s पर कभी भी कूपन न दिखाएँ"
+   },
+   "sasProductName": {
+      "message": "SafePrice"
+   },
+   "sasPromoAction": {
+      "message": "अच्छा लग रहा है, इस संदेश को बंद करें"
+   },
+   "sasPromoDescription": {
+      "message": "SafePrice को आपके वांछित उत्पाद के लिए सर्वश्रेष्ठ सौदा मिला है. मूल्य देखें, शॉप की तुलना करें, ग्राहक समीक्षाएँ पढ़ें, रिटेलर की प्रतिष्ठा सत्यापित करें, उत्पाद वीडियो देखें और सीधे अपने वेब ब्राउज़र में कूपन प्राप्त करें."
+   },
+   "sasPromoNewBadge": {
+      "message": "नई"
+   },
+   "sasPromoOptout": {
+      "message": "SafePrice को अक्षम करें"
+   },
+   "sasRecommendedOfferMessage": {
+      "message": "अनुशंसित"
+   },
+   "sasRecommendedOfferTitle": {
+      "message": "इस विश्वसनीय विक्रेता के पास अच्छे मूल्य, समीक्षाएँ और सेवा की गुणवत्ता है."
+   },
+   "sasShippingLabel": {
+      "message": "सर्वश्रेष्ठ ऑफ़र"
+   }
+}

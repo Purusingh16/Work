@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="822" started-at="2017-01-25T14:21:09Z" finished-at="2017-01-25T14:21:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="822" started-at="2017-01-25T14:21:09Z" finished-at="2017-01-25T14:21:10Z">
+      <class name="testScripts.NewTest">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:testScripts.NewTest@61832929]" name="f" duration-ms="24" started-at="2017-01-25T19:51:10Z" data-provider="getData" finished-at="2017-01-25T19:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UseName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:testScripts.NewTest@61832929]" name="f" duration-ms="2" started-at="2017-01-25T19:51:10Z" data-provider="getData" finished-at="2017-01-25T19:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test123@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:testScripts.NewTest@61832929]" name="f" duration-ms="1" started-at="2017-01-25T19:51:10Z" data-provider="getData" finished-at="2017-01-25T19:51:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- testScripts.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

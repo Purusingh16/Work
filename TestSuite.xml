@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="none">
+  <test name="Test">
+      <parameter name="browserName" value="InternetExplorer"/>
+    <classes>
+      <class name="testngScript.TestngDemo">
+          <methods>
+              <exclude name="verifySignin"></exclude>
+          </methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

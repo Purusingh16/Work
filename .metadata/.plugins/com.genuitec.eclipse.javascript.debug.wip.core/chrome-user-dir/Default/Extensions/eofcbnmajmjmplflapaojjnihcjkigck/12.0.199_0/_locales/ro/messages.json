@@ -1,0 +1,106 @@
+{
+   "safeShopBestButtonNextOffer": {
+      "message": "Următoarea ofertă %s pe %s"
+   },
+   "safeShopBestButtonSave": {
+      "message": "Salvez %s %s pe %s"
+   },
+   "safeShopBestTitleBestHere": {
+      "message": "Cea mai bună ofertă aici!"
+   },
+   "safeShopBestTitleCheaperFound": {
+      "message": "Am găsit prețuri mai mici!"
+   },
+   "safeShopCoupons": {
+      "message": "%s coupoane"
+   },
+   "safeShopOffers": {
+      "message": "%s oferte începând de la %s"
+   },
+   "sasClickToCopy": {
+      "message": "Clic pentru copiere"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Codul este copiat în clipboard."
+   },
+   "sasCouponCodeTitle": {
+      "message": "Cod cupon"
+   },
+   "sasCouponInstructionsTitle": {
+      "message": "Instrucțiuni pentru solicitarea de cupoane"
+   },
+   "sasCouponsSaving": {
+      "message": "Salvați până la %s"
+   },
+   "sasCouponsTitle": {
+      "message": "%s cupoane disponibile!"
+   },
+   "sasHintBestOffer": {
+      "message": "Cea mai bună ofertă"
+   },
+   "sasHintBestOfferDesc": {
+      "message": "Du-te direct la cel mai bun preț pentru acest produs."
+   },
+   "sasHintCoupons": {
+      "message": "Vizualizare cupoane"
+   },
+   "sasHintCouponsDesc": {
+      "message": "Vizualizare cupoane & salvare"
+   },
+   "sasHintOtherOffers": {
+      "message": "Compară prețurile"
+   },
+   "sasHintOtherOffersDesc": {
+      "message": "Vezi alte oferte comparabile"
+   },
+   "sasHintSettings": {
+      "message": "Setări"
+   },
+   "sasHintSettingsDesc": {
+      "message": "Personalizați-vă setările aici"
+   },
+   "sasNoCouponCode": {
+      "message": "Nu este necesar nici un cod"
+   },
+   "sasOptionsDisableAll": {
+      "message": "Dezactivează SafePrice pe toate site-urile pentru 24 de ore"
+   },
+   "sasOptionsDisableOnSite": {
+      "message": "Dezactivează SafePrice pe %s pentru 24 de ore"
+   },
+   "sasOptionsEnableAll": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for all domains",
+      "message": "Activare SafePrice pe toate site-urile"
+   },
+   "sasOptionsEnableOnSite": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for one domain. %s: name of the domain",
+      "message": "Activare SafePrice pe %s"
+   },
+   "sasOptionsNeverShowOnSite": {
+      "message": "Nu afișa cupoanele pe %s"
+   },
+   "sasProductName": {
+      "message": "PreţSigur"
+   },
+   "sasPromoAction": {
+      "message": "Sună bine, închide acest mesaj!"
+   },
+   "sasPromoDescription": {
+      "message": "SafePrice găsește cele mai bune oferte pentru produsul căutat. Verifică prețurile, compară magazinele, citește părerile clienților, verifică reputația vânzătorului, vizualizează filmele despre produs, și obține cupoane direct în navigator."
+   },
+   "sasPromoNewBadge": {
+      "message": "Nou"
+   },
+   "sasPromoOptout": {
+      "message": "Dezactivează SafePrice"
+   },
+   "sasRecommendedOfferMessage": {
+      "message": "Recomandat"
+   },
+   "sasRecommendedOfferTitle": {
+      "message": "Acest distribuitor demn de încredere are prețuri și recenzii bune, precum și servicii de calitate."
+   },
+   "sasShippingLabel": {
+      "message": "T/M de la"
+   }
+}

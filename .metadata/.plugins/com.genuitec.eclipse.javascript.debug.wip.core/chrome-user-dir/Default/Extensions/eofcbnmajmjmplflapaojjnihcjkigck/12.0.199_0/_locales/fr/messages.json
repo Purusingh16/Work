@@ -1,0 +1,106 @@
+{
+   "safeShopBestButtonNextOffer": {
+      "message": "Offre suivante %s sur %s"
+   },
+   "safeShopBestButtonSave": {
+      "message": "Économiser %s %s sur %s"
+   },
+   "safeShopBestTitleBestHere": {
+      "message": "Meilleure offre ici !"
+   },
+   "safeShopBestTitleCheaperFound": {
+      "message": "Prix plus bas trouvés !"
+   },
+   "safeShopCoupons": {
+      "message": "%s coupons"
+   },
+   "safeShopOffers": {
+      "message": "%s offres à partir de %s"
+   },
+   "sasClickToCopy": {
+      "message": "Cliquer pour copier"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Code copié dans le presse-papier."
+   },
+   "sasCouponCodeTitle": {
+      "message": "Code de coupon"
+   },
+   "sasCouponInstructionsTitle": {
+      "message": "Instructions pour utiliser le coupon"
+   },
+   "sasCouponsSaving": {
+      "message": "Économiser jusqu'à %s"
+   },
+   "sasCouponsTitle": {
+      "message": "%s coupons disponibles !"
+   },
+   "sasHintBestOffer": {
+      "message": "Meilleure offre"
+   },
+   "sasHintBestOfferDesc": {
+      "message": "Aller directement à la meilleure offre pour ce produit."
+   },
+   "sasHintCoupons": {
+      "message": "Afficher les coupons"
+   },
+   "sasHintCouponsDesc": {
+      "message": "Afficher les coupons et économiser"
+   },
+   "sasHintOtherOffers": {
+      "message": "Comparer les prix"
+   },
+   "sasHintOtherOffersDesc": {
+      "message": "Voir les offres comparables"
+   },
+   "sasHintSettings": {
+      "message": "Paramètres"
+   },
+   "sasHintSettingsDesc": {
+      "message": "Personnaliser vos paramètres ici"
+   },
+   "sasNoCouponCode": {
+      "message": "Aucun code n'est nécessaire"
+   },
+   "sasOptionsDisableAll": {
+      "message": "Désactiver SafePrice sur tous les sites pendant 24 heures"
+   },
+   "sasOptionsDisableOnSite": {
+      "message": "Désactiver SafePrice sur %s pendant 24 heures"
+   },
+   "sasOptionsEnableAll": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for all domains",
+      "message": "Activer SafePrice sur tous les sites"
+   },
+   "sasOptionsEnableOnSite": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for one domain. %s: name of the domain",
+      "message": "Activer SafePrice sur %s"
+   },
+   "sasOptionsNeverShowOnSite": {
+      "message": "Ne jamais afficher les coupons sur %s"
+   },
+   "sasProductName": {
+      "message": "SafePrice"
+   },
+   "sasPromoAction": {
+      "message": "Ça paraît bien, fermer ce message !"
+   },
+   "sasPromoDescription": {
+      "message": "SafePrice trouve les meilleures offres pour le produit que vous voulez. Vérifiez les prix, comparez les boutiques, lisez les évaluations des clients, vérifiez la réputation des revendeurs, regardez les vidéos des produits et obtenez des coupons directement dans votre navigateur."
+   },
+   "sasPromoNewBadge": {
+      "message": "Nouveau"
+   },
+   "sasPromoOptout": {
+      "message": "Désactiver SafePrice"
+   },
+   "sasRecommendedOfferMessage": {
+      "message": "Recommandé"
+   },
+   "sasRecommendedOfferTitle": {
+      "message": "Ce revendeur de confiance a de bon prix, de bonnes critiques et une bonne qualité de service."
+   },
+   "sasShippingLabel": {
+      "message": "Livraison à partir de"
+   }
+}

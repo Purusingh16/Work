@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jan 14 12:48:14 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>4 seconds (4855 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='cucumberRunner.JavaTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberRunner.JavaTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login with valid credentials", "Testing login scenarios"<br/>
+<a href="#Output-1170788511" onClick='toggleBox("Output-1170788511", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1170788511" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1170788511">
+<div "result">User should open application &quot;http:&#x2F;&#x2F;automationpractice.com&quot; on &quot;firefox&quot; browser (FAILED : 4s)</div><br/>
+<div "result">User clicks on sign in link (SKIPPED)</div><br/>
+<div "result">User enters &quot;seleniumpr@gmail.com&quot; in username field (SKIPPED)</div><br/>
+<div "result">User enters &quot;seleniumpr&quot; in password field (SKIPPED)</div><br/>
+<div "result">user clicks Signin button (SKIPPED)</div><br/>
+<div "result">User should be login (SKIPPED)</div><br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Unable to find a matching set of capabilities
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;PURUSHOTTAM&apos;, ip: &apos;192.168.230.2&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:   0x46c297 - &lt;no info&gt;
+   1:   0x4388b6 - &lt;no info&gt;
+   2:   0x4225f2 - &lt;no info&gt;
+   3:   0x406389 - &lt;no info&gt;
+   4:   0x40cc97 - &lt;no info&gt;
+   5:   0x657a89 - &lt;no info&gt;
+   6:   0x4185b6 - &lt;no info&gt;
+   7:   0x6535a1 - &lt;no info&gt;
+   8: 0x75767c04 - BaseThreadInitThunk
+   9: 0x7721ad8f - RtlInitializeExceptionChain
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:98)
+	at utils.SeleniumUtils.openBrowser(SeleniumUtils.java:20)
+	at stepDefination.LoginSteps.user_should_open_application_url_on_firefox_browser(LoginSteps.java:23)
+	at ?.User should open application &quot;http://automationpractice.com&quot; on &quot;firefox&quot; browser(src/test/resources/featurefiles/firstcucumberdemo.feature:26)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1170788511", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1170788511'><pre>org.openqa.selenium.SessionNotCreatedException: Unable to find a matching set of capabilities
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;PURUSHOTTAM&apos;, ip: &apos;192.168.230.2&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:   0x46c297 - &lt;no info&gt;
+   1:   0x4388b6 - &lt;no info&gt;
+   2:   0x4225f2 - &lt;no info&gt;
+   3:   0x406389 - &lt;no info&gt;
+   4:   0x40cc97 - &lt;no info&gt;
+   5:   0x657a89 - &lt;no info&gt;
+   6:   0x4185b6 - &lt;no info&gt;
+   7:   0x6535a1 - &lt;no info&gt;
+   8: 0x75767c04 - BaseThreadInitThunk
+   9: 0x7721ad8f - RtlInitializeExceptionChain
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:98)
+	at utils.SeleniumUtils.openBrowser(SeleniumUtils.java:20)
+	at stepDefination.LoginSteps.user_should_open_application_url_on_firefox_browser(LoginSteps.java:23)
+	at ?.User should open application &quot;http://automationpractice.com&quot; on &quot;firefox&quot; browser(src/test/resources/featurefiles/firstcucumberdemo.feature:26)
+</pre></div></td>
+<td>4</td>
+<td>cucumberRunner.JavaTestRunner@783e6358</td></tr>
+</table><p>
+</body>
+</html>

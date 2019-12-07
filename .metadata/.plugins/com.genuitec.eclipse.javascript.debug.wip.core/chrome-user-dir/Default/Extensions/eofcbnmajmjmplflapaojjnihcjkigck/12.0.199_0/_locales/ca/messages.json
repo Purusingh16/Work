@@ -1,0 +1,106 @@
+{
+   "safeShopBestButtonNextOffer": {
+      "message": "Següent oferta %s a %s"
+   },
+   "safeShopBestButtonSave": {
+      "message": "Estalvieu %s %s a %s"
+   },
+   "safeShopBestTitleBestHere": {
+      "message": "Aquesta és la millor oferta!"
+   },
+   "safeShopBestTitleCheaperFound": {
+      "message": "S'han trobat ofertes!"
+   },
+   "safeShopCoupons": {
+      "message": "%s cupons"
+   },
+   "safeShopOffers": {
+      "message": "%s ofertes des de %s"
+   },
+   "sasClickToCopy": {
+      "message": "Clic per copiar"
+   },
+   "sasCouponCodeCopied": {
+      "message": "S'ha copiat el codi al porta-retalls."
+   },
+   "sasCouponCodeTitle": {
+      "message": "Codi promocional"
+   },
+   "sasCouponInstructionsTitle": {
+      "message": "Instruccions per utilitzar el cupó"
+   },
+   "sasCouponsSaving": {
+      "message": "Estalvieu fins a %s"
+   },
+   "sasCouponsTitle": {
+      "message": "%s cupons disponibles!"
+   },
+   "sasHintBestOffer": {
+      "message": "Millor oferta"
+   },
+   "sasHintBestOfferDesc": {
+      "message": "Vés directament al millor preu per a aquest producte."
+   },
+   "sasHintCoupons": {
+      "message": "Mostra els cupons"
+   },
+   "sasHintCouponsDesc": {
+      "message": "Mostra els cupons d'estalvi"
+   },
+   "sasHintOtherOffers": {
+      "message": "Compara els preus"
+   },
+   "sasHintOtherOffersDesc": {
+      "message": "Mostra altres ofertes"
+   },
+   "sasHintSettings": {
+      "message": "Configuració"
+   },
+   "sasHintSettingsDesc": {
+      "message": "Configureu les vostres preferències aquí"
+   },
+   "sasNoCouponCode": {
+      "message": "No es requereix cap codi"
+   },
+   "sasOptionsDisableAll": {
+      "message": "Inhabilita el SafePrice a tots els llocs web durant 24 hores"
+   },
+   "sasOptionsDisableOnSite": {
+      "message": "Inhabilita el SafePrice a %s durant 24 hores"
+   },
+   "sasOptionsEnableAll": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for all domains",
+      "message": "Habilita el SafePrice a tots els webs"
+   },
+   "sasOptionsEnableOnSite": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for one domain. %s: name of the domain",
+      "message": "Habilita el SafePrice a %s"
+   },
+   "sasOptionsNeverShowOnSite": {
+      "message": "No mostris mai cupons a %s"
+   },
+   "sasProductName": {
+      "message": "SafePrice"
+   },
+   "sasPromoAction": {
+      "message": "Sona bé; tanca aquest missatge"
+   },
+   "sasPromoDescription": {
+      "message": "El SafePrice us ajuda a trobar els millors preus dels productes que cerqueu: Compara preus, botigues, reputació del venedor i facilita cupons de descompte, vídeos del producte o les opinions dels usuaris; tot des del vostre navegador."
+   },
+   "sasPromoNewBadge": {
+      "message": "Nou"
+   },
+   "sasPromoOptout": {
+      "message": "Inhabilita el SafePrice"
+   },
+   "sasRecommendedOfferMessage": {
+      "message": "Recomanat"
+   },
+   "sasRecommendedOfferTitle": {
+      "message": "Aquest venedor de confiança té bons preus, bones crítiques i una bona qualitat de servei."
+   },
+   "sasShippingLabel": {
+      "message": "Enviament des de"
+   }
+}

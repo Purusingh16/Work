@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;javaAppMultithreading/src/multithreading&apos;&#x0D;&#x0A;- Original project: &apos;javaAppAbstract_Interface&apos;&#x0D;&#x0A;- Destination element: &apos;javaAppMultithreading/src/multithreading&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     abstractApp.CSquire.java&#x0D;&#x0A;     abstractApp.CTraingle.java&#x0D;&#x0A;     abstractApp.IShape.java&#x0D;&#x0A;     abstractApp.CRect.java" description="Copy compilation units" destination="=javaAppMultithreading/src&lt;multithreading" element1="/src&lt;abstractApp{CSquire.java" element2="/src&lt;abstractApp{CTraingle.java" element3="/src&lt;abstractApp{IShape.java" element4="/src&lt;abstractApp{CRect.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1477199013672" units="4" version="1.0"/>
+</session>

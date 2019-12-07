@@ -1,0 +1,19 @@
+*it is child interface of collection.
+
+*If we want to represent a group of individual objects prior to processing then we 
+should go for Queue.
+
+
+Ex:before sending a mail all mail id's we have to store somewhere and in which 
+order we saved in the same order mail's should be delivered (first in first out) for this
+requirement Queue concept is the best choice.
+
+
+
+NOTE:
+*all the above interfaces.
+(Collection,List,set,sortedset,navigableset and queue)meant for representing a 
+group of individual objects.
+
+*If we want to represent a group of objects as key value pairs then we should 
+go for map Interfaces. 

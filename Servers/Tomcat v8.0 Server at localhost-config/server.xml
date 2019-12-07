@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+--><!-- Note:  A "Server" is not itself a "Container", so you may not
+     define subcomponents such as "Valves" at this level.
+     Documentation at /docs/config/server.html
+ --><Server port="8005" shutdown="SHUTDOWN">
+  <Listener className="org.apache.catalina.startup.VersionLoggerListener"/>
+  <!-- Security listener. Documentation at /docs/config/listeners.html
+  <Listener className="org.apache.catalina.security.SecurityListener" />
+  -->
+  <!--APR library loader. Documentation at /docs/apr.html -->
+  <Listener SSLEngine="on" className="org.apache.catalina.core.AprLifecycleListener"/>
+  <!-- Prevent memory leaks due to use of particular java/javax APIs-->
+  <Listener className="org.apache.catalina.core.JreMemoryLeakPreventionListener"/>
+  <Listener className="org.apache.catalina.mbeans.GlobalResourcesLifecycleListener"/>
+  <Listener className="org.apache.catalina.core.ThreadLocalLeakPreventionListener"/>
+
+  <!-- Global JNDI resources
+       Documentation at /docs/jndi-resources-howto.html
+  -->
+  <GlobalNamingResources>
+    <!-- Editable user database that can also be used by
+         UserDatabaseRealm to authenticate users
+    -->
+    <Resource auth="Container" description="User database that can be updated and saved" factory="org.apache.catalina.users.MemoryUserDatabaseFactory" name="UserDatabase" pathname="conf/tomcat-users.xml" type="org.apache.catalina.UserDatabase"/>
+  </GlobalNamingResources>
+
+  <!-- A "Service" is a collection of one or more "Connectors" that share
+       a single "Container" Note:  A "Service" is not itself a "Container",
+       so you may not define subcomponents such as "Valves" at this level.
+       Documentation at /docs/config/service.html
+   -->
+  <Service name="Catalina">
+
+    <!--The connectors can use a shared executor, you can define one or more named thread pools-->
+    <!--
+    <Executor name="tomcatThreadPool" namePrefix="catalina-exec-"
+        maxThreads="150" minSpareThreads="4"/>
+    -->
+
+
+    <!-- A "Connector" represents an endpoint by which requests are received
+         and responses are returned. Documentation at :
+         Java HTTP Connector: /docs/config/http.html (blocking & non-blocking)
+         Java AJP  Connector: /docs/config/ajp.html
+         APR (HTTP/AJP) Connector: /docs/apr.html
+         Define a non-SSL/TLS HTTP/1.1 Connector on port 8080
+    -->
+    <Connector connectionTimeout="20000" port="8090" protocol="HTTP/1.1" redirectPort="8443"/>
+    <!-- A "Connector" using the shared thread pool-->
+    <!--
+    <Connector executor="tomcatThreadPool"
+               port="8080" protocol="HTTP/1.1"
+               connectionTimeout="20000"
+               redirectPort="8443" />
+    -->
+    <!-- Define a SSL/TLS HTTP/1.1 Connector on port 8443
+         This connector uses the NIO implementation that requires the JSSE
+         style configuration. When using the APR/native implementation, the
+         OpenSSL style configuration is required as described in the APR/native
+         documentation -->
+    <!--
+    <Connector port="8443" protocol="org.apache.coyote.http11.Http11NioProtocol"
+               maxThreads="150" SSLEnabled="true" scheme="https" secure="true"
+               clientAuth="false" sslProtocol="TLS" />
+    -->
+
+    <!-- Define an AJP 1.3 Connector on port 8009 -->
+    <Connector port="8009" protocol="AJP/1.3" redirectPort="8443"/>
+
+
+    <!-- An Engine represents the entry point (within Catalina) that processes
+         every request.  The Engine implementation for Tomcat stand alone
+         analyzes the HTTP headers included with the request, and passes them
+         on to the appropriate Host (virtual host).
+         Documentation at /docs/config/engine.html -->
+
+    <!-- You should set jvmRoute to support load-balancing via AJP ie :
+    <Engine name="Catalina" defaultHost="localhost" jvmRoute="jvm1">
+    -->
+    <Engine defaultHost="localhost" name="Catalina">
+
+      <!--For clustering, please take a look at documentation at:
+          /docs/cluster-howto.html  (simple how to)
+          /docs/config/cluster.html (reference documentation) -->
+      <!--
+      <Cluster className="org.apache.catalina.ha.tcp.SimpleTcpCluster"/>
+      -->
+
+      <!-- Use the LockOutRealm to prevent attempts to guess user passwords
+           via a brute-force attack -->
+      <Realm className="org.apache.catalina.realm.LockOutRealm">
+        <!-- This Realm uses the UserDatabase configured in the global JNDI
+             resources under the key "UserDatabase".  Any edits
+             that are performed against this UserDatabase are immediately
+             available for use by the Realm.  -->
+        <Realm className="org.apache.catalina.realm.UserDatabaseRealm" resourceName="UserDatabase"/>
+      </Realm>
+
+      <Host appBase="webapps" autoDeploy="true" name="localhost" unpackWARs="true">
+
+        <!-- SingleSignOn valve, share authentication between web applications
+             Documentation at: /docs/config/valve.html -->
+        <!--
+        <Valve className="org.apache.catalina.authenticator.SingleSignOn" />
+        -->
+
+        <!-- Access log processes all example.
+             Documentation at: /docs/config/valve.html
+             Note: The pattern used is equivalent to using pattern="common" -->
+        <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
+
+      <Context docBase="httpservletapp" path="/httpservletapp" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp"/><Context docBase="httpservletapp1" path="/httpservletapp1" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp1"/><Context docBase="httpservletapp2" path="/httpservletapp2" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp2"/><Context docBase="httpservletapp3" path="/httpservletapp3" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp3"/><Context docBase="httpservletapp4" path="/httpservletapp4" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp4"/><Context docBase="httpjspApp" path="/httpjspApp" reloadable="true" source="org.eclipse.jst.jee.server:httpjspApp"/><Context docBase="httpjspApp1" path="/httpjspApp1" reloadable="true" source="org.eclipse.jst.jee.server:httpjspApp1"/><Context docBase="httpjspApp3" path="/httpjspApp3" reloadable="true" source="org.eclipse.jst.jee.server:httpjspApp3"/><Context docBase="httpjspApp2" path="/httpjspApp2" reloadable="true" source="org.eclipse.jst.jee.server:httpjspApp2"/><Context docBase="httpjspApp4" path="/httpjspApp4" reloadable="true" source="org.eclipse.jst.jee.server:httpjspApp4"/><Context docBase="httpjspApp5" path="/httpjspApp5" reloadable="true" source="org.eclipse.jst.jee.server:httpjspApp5"/><Context docBase="httpjspApp6" path="/httpjspApp6" reloadable="true" source="org.eclipse.jst.jee.server:httpjspApp6"/><Context docBase="httpjspApp7" path="/httpjspApp7" reloadable="true" source="org.eclipse.jst.jee.server:httpjspApp7"/><Context docBase="httpjspApp8" path="/httpjspApp8" reloadable="true" source="org.eclipse.jst.jee.server:httpjspApp8"/><Context docBase="httpjspApp9" path="/httpjspApp9" reloadable="true" source="org.eclipse.jst.jee.server:httpjspApp9"/><Context docBase="httpjspurlApp" path="/httpjspurlApp" reloadable="true" source="org.eclipse.jst.jee.server:httpjspurlApp"/><Context docBase="httpservletapp5" path="/httpservletapp5" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp5"/><Context docBase="httpservletapp6" path="/httpservletapp6" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp6"/><Context docBase="httpservletapp7" path="/httpservletapp7" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp7"/><Context docBase="httpservletapp9" path="/httpservletapp9" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp9"/><Context docBase="httpservletapp10" path="/httpservletapp10" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp10"/><Context docBase="httpservletapp11" path="/httpservletapp11" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp11"/><Context docBase="httpservletapp12" path="/httpservletapp12" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp12"/><Context docBase="httpservletapp13" path="/httpservletapp13" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp13"/><Context docBase="httpservletapp14" path="/httpservletapp14" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp14"/><Context docBase="httpservletapp15" path="/httpservletapp15" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp15"/><Context docBase=" Httpservletapp16" path="/_Httpservletapp16" reloadable="true" source="org.eclipse.jst.jee.server: Httpservletapp16"/><Context docBase="httpservletapp17" path="/httpservletapp17" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp17"/><Context docBase="httpservletapp18" path="/httpservletapp18" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp18"/><Context docBase="httpservletapp19" path="/httpservletapp19" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp19"/><Context docBase="httpservletapp20" path="/httpservletapp20" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp20"/><Context docBase="httpservletapp21" path="/httpservletapp21" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp21"/><Context docBase="httpservletapp22" path="/httpservletapp22" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp22"/><Context docBase="httpservletapp24" path="/httpservletapp24" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp24"/><Context docBase="httpservletapp25" path="/httpservletapp25" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp25"/><Context docBase="httpservletapp26" path="/httpservletapp26" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp26"/><Context docBase="httpservletapp27" path="/httpservletapp27" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp27"/><Context docBase="httpservletapp28" path="/httpservletapp28" reloadable="true" source="org.eclipse.jst.jee.server:httpservletapp28"/><Context docBase="httpjspExample" path="/httpjspExample" reloadable="true" source="org.eclipse.jst.jee.server:httpjspExample"/><Context docBase="jspapp1" path="/jspapp1" reloadable="true" source="org.eclipse.jst.jee.server:jspapp1"/><Context docBase="jspapp2" path="/jspapp2" reloadable="true" source="org.eclipse.jst.jee.server:jspapp2"/><Context docBase="jspapp3" path="/jspapp3" reloadable="true" source="org.eclipse.jst.jee.server:jspapp3"/><Context docBase="jspapp4" path="/jspapp4" reloadable="true" source="org.eclipse.jst.jee.server:jspapp4"/></Host>
+    </Engine>
+  </Service>
+</Server>

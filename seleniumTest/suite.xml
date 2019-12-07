@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests" thread-count="2">
+  <listeners>
+  <listener class-name="utils.TestListener"></listener>
+  </listeners>	
+  <parameter name="url" value="http://automationpractice.com/index.php"/>
+  <parameter name="port" value="4441"></parameter>
+  <test name="FirefoxTest">
+  <parameter name="browserName" value="firefox"/>
+    <classes>
+    
+<!--       <class name="testScript.TestLogin"/> -->
+      <class name="testScript.TestContactUs"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Chrome">
+  <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="testScript.TestLogin"/>
+<!--       <class name="testScript.TestContactUs"/> -->
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

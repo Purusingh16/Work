@@ -1,0 +1,106 @@
+{
+   "safeShopBestButtonNextOffer": {
+      "message": "Следваща оферта %s в %s"
+   },
+   "safeShopBestButtonSave": {
+      "message": "Спести %s %s в %s"
+   },
+   "safeShopBestTitleBestHere": {
+      "message": "Най-добра оферта!"
+   },
+   "safeShopBestTitleCheaperFound": {
+      "message": "Открити са по-ниски цени!"
+   },
+   "safeShopCoupons": {
+      "message": "%s купони"
+   },
+   "safeShopOffers": {
+      "message": "%s оферти от %s"
+   },
+   "sasClickToCopy": {
+      "message": "Кликни, за да копираш"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Кодът е копиран в клипборда."
+   },
+   "sasCouponCodeTitle": {
+      "message": "Код на купона"
+   },
+   "sasCouponInstructionsTitle": {
+      "message": "Инструкции за ползване на купона"
+   },
+   "sasCouponsSaving": {
+      "message": "Запази до %s"
+   },
+   "sasCouponsTitle": {
+      "message": "Налични са %s купони!"
+   },
+   "sasHintBestOffer": {
+      "message": "Най-добра оферта"
+   },
+   "sasHintBestOfferDesc": {
+      "message": "Отивай направо на най-добрата оферта за продукта."
+   },
+   "sasHintCoupons": {
+      "message": "Покажи купоните"
+   },
+   "sasHintCouponsDesc": {
+      "message": "Покажи купоните & запази"
+   },
+   "sasHintOtherOffers": {
+      "message": "Сравни цените"
+   },
+   "sasHintOtherOffersDesc": {
+      "message": "Виж други подобни оферти"
+   },
+   "sasHintSettings": {
+      "message": "Настройки"
+   },
+   "sasHintSettingsDesc": {
+      "message": "Персонализирай настройките оттук"
+   },
+   "sasNoCouponCode": {
+      "message": "Не е нужен код"
+   },
+   "sasOptionsDisableAll": {
+      "message": "Изключи SafePrice навсякъде за 24 часа"
+   },
+   "sasOptionsDisableOnSite": {
+      "message": "Изключи SafePrice в %s за 24 часа"
+   },
+   "sasOptionsEnableAll": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for all domains",
+      "message": "Активиране на SafePrice на всички сайтове"
+   },
+   "sasOptionsEnableOnSite": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for one domain. %s: name of the domain",
+      "message": "Активиране на SafePrice на %s"
+   },
+   "sasOptionsNeverShowOnSite": {
+      "message": "Не показвай купони за %s"
+   },
+   "sasProductName": {
+      "message": "SafePrice"
+   },
+   "sasPromoAction": {
+      "message": "Звучи добре, затвори съобщението!"
+   },
+   "sasPromoDescription": {
+      "message": "SafePrice намира най-добрите оферти за желания продукт. Проверете цени, сравнете магазини, четете отзиви, проверете репутацията на продавача, гледайте видео за продукта и получете купони направо във вашия браузър."
+   },
+   "sasPromoNewBadge": {
+      "message": "Нова"
+   },
+   "sasPromoOptout": {
+      "message": "Изключи СигурнаЦена"
+   },
+   "sasRecommendedOfferMessage": {
+      "message": "Препоръчано"
+   },
+   "sasRecommendedOfferTitle": {
+      "message": "Този надежден търговец предлага добри цени, обзори на продукти и високо качество на обслужване."
+   },
+   "sasShippingLabel": {
+      "message": "Доставка от"
+   }
+}

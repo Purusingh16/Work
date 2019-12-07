@@ -1,0 +1,13 @@
+1.SortedSet
+---------------------
+*It is the child interface of Set.
+
+*If we want to represent a group of individual objects as a single entity where
+duplicates are not allowed but all objects should be inserted according to some 
+sorting order then we should go for SortedSet.
+
+2.NavigableSet
+----------------------
+*It is the child interface of SortedSet it defines several methods for navigable
+purposes.
+

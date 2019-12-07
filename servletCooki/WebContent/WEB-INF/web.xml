@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+<servlet-name>aaa</servlet-name>
+<servlet-class>Data1</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>aaa</servlet-name>
+<url-pattern>/servlet1</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>bbb</servlet-name>
+<servlet-class>Data2</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>bbb</servlet-name>
+<url-pattern>/servlet2</url-pattern>
+</servlet-mapping>
+</web-app>
+

@@ -1,0 +1,106 @@
+{
+   "safeShopBestButtonNextOffer": {
+      "message": "Sledeća ponuda %s na %s"
+   },
+   "safeShopBestButtonSave": {
+      "message": "Sačuvaj %s %s na %s"
+   },
+   "safeShopBestTitleBestHere": {
+      "message": "Najbolja ponuda ovde!"
+   },
+   "safeShopBestTitleCheaperFound": {
+      "message": "Pronađena je niža cena!"
+   },
+   "safeShopCoupons": {
+      "message": "%s kuponi"
+   },
+   "safeShopOffers": {
+      "message": "%s početna cena ponude %s"
+   },
+   "sasClickToCopy": {
+      "message": "Kliknite da biste kopirali"
+   },
+   "sasCouponCodeCopied": {
+      "message": "Kod kopiran u clipboard."
+   },
+   "sasCouponCodeTitle": {
+      "message": "Kod kupona"
+   },
+   "sasCouponInstructionsTitle": {
+      "message": "Instrkucije kako da iskoristite kupon"
+   },
+   "sasCouponsSaving": {
+      "message": "Sačuvajte do %s"
+   },
+   "sasCouponsTitle": {
+      "message": "%s kupona dostupno!"
+   },
+   "sasHintBestOffer": {
+      "message": "Najbolja ponuda"
+   },
+   "sasHintBestOfferDesc": {
+      "message": "Idite direktno na najbolju cenu za traženi proizvod."
+   },
+   "sasHintCoupons": {
+      "message": "Pregledaj kupone"
+   },
+   "sasHintCouponsDesc": {
+      "message": "Pregledaj kupone i sačuvaj"
+   },
+   "sasHintOtherOffers": {
+      "message": "Uporedi cene"
+   },
+   "sasHintOtherOffersDesc": {
+      "message": "Pogledaj ostale uporedljive ponude"
+   },
+   "sasHintSettings": {
+      "message": "Podešavanja"
+   },
+   "sasHintSettingsDesc": {
+      "message": "Izmenite Vaša podešavanja ovde"
+   },
+   "sasNoCouponCode": {
+      "message": "Nikakav kod nije potreban"
+   },
+   "sasOptionsDisableAll": {
+      "message": "Onemogući SafePrice na svim sajtovima u naredna 24 sata"
+   },
+   "sasOptionsDisableOnSite": {
+      "message": "Onemogući SafePrice na %s u sledeća 24 sata"
+   },
+   "sasOptionsEnableAll": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for all domains",
+      "message": "Omogući SafePrice na svim sajtovima"
+   },
+   "sasOptionsEnableOnSite": {
+      "description": "Message that allow the user to enable SP if it was deactivated for 24H for one domain. %s: name of the domain",
+      "message": "Omogući SafePrice na %s"
+   },
+   "sasOptionsNeverShowOnSite": {
+      "message": "Nikad ne prikazzuj kupone na %s"
+   },
+   "sasProductName": {
+      "message": "SafePrice"
+   },
+   "sasPromoAction": {
+      "message": "Zvuči odlično, zatvori poruku"
+   },
+   "sasPromoDescription": {
+      "message": "SafePrice proverava najbolje ponude za željeni proizvod. Uporedite cene, uporedite prodavnice, pročitajte mišljenje kupaca, proverite pouzdanost prodavnice, pogledajte video proizvoda, i dobijte kupone sa vašeg računara."
+   },
+   "sasPromoNewBadge": {
+      "message": "Nova"
+   },
+   "sasPromoOptout": {
+      "message": "Onemogući SafePrice"
+   },
+   "sasRecommendedOfferMessage": {
+      "message": "Preporučeno"
+   },
+   "sasRecommendedOfferTitle": {
+      "message": "Ovaj prodavac od poverenja ima dobre cene, ocene i kvalitet usluge."
+   },
+   "sasShippingLabel": {
+      "message": "dostava od"
+   }
+}

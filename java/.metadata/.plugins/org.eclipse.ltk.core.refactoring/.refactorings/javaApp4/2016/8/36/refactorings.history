@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;javaAssignment.Sorting_Array.java&apos; to &apos;Test.java&apos;&#x0D;&#x0A;- Original project: &apos;javaApp4&apos;&#x0D;&#x0A;- Original element: &apos;javaAssignment.Sorting_Array.java&apos;&#x0D;&#x0A;- Renamed element: &apos;javaAssignment.Test.java&apos;" description="Rename compilation unit &apos;Sorting_Array.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;javaAssignment{Sorting_Array.java" name="Test.java" references="false" stamp="1472632363270" version="1.0"/>
+</session>
