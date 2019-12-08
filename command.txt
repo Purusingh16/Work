@@ -1,0 +1,9 @@
+ls
+cd
+git init
+git remote add origin <https git link>
+git remote -v
+git add .
+git commit -m "first commit"
+git push origin master
+git help
