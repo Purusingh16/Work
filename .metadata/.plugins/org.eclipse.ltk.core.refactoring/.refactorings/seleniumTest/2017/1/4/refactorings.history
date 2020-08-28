@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;testScripts.TestCreate_an_accountPape&apos; to &apos;TestCreate_an_accountPage&apos;&#x0D;&#x0A;- Original project: &apos;seleniumTest&apos;&#x0D;&#x0A;- Original element: &apos;testScripts.TestCreate_an_accountPape&apos;&#x0D;&#x0A;- Renamed element: &apos;testScripts.TestCreate_an_accountPage&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TestCreate_an_accountPape&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java&lt;testScripts{TestCreate_an_accountPape.java[TestCreate_an_accountPape" matchStrategy="1" name="TestCreate_an_accountPage" qualified="false" references="true" similarDeclarations="false" stamp="1485264479911" textual="false" version="1.0"/>
-</session>

@@ -1,8 +1,0 @@
-127.0.0.1 - - [07/Mar/2017:11:30:52 +0530] "GET / HTTP/1.1" 404 994
-0:0:0:0:0:0:0:1 - - [07/Mar/2017:11:30:53 +0530] "GET /servletFrameWork/index.html HTTP/1.1" 404 1048
-0:0:0:0:0:0:0:1 - - [07/Mar/2017:11:31:38 +0530] "GET /servletFrameWork/index.html HTTP/1.1" 404 1048
-0:0:0:0:0:0:0:1 - - [07/Mar/2017:11:31:54 +0530] "GET /servletFrameWork/index.html HTTP/1.1" 404 1048
-0:0:0:0:0:0:0:1 - - [07/Mar/2017:11:32:42 +0530] "GET /servletCooki/index.html HTTP/1.1" 404 1040
-0:0:0:0:0:0:0:1 - - [07/Mar/2017:11:38:24 +0530] "GET /servletCooki/index.html HTTP/1.1" 404 1040
-0:0:0:0:0:0:0:1 - - [07/Mar/2017:11:42:45 +0530] "GET /servletCooki/index.html HTTP/1.1" 404 1040
-0:0:0:0:0:0:0:1 - - [07/Mar/2017:11:45:37 +0530] "GET /servletCooki/index.html HTTP/1.1" 404 1040

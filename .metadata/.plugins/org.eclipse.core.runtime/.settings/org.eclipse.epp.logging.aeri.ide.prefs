@@ -1,7 +1,4 @@
-configured=true
 eclipse.preferences.version=1
 resetSendMode=KEEP
 resetSendModeOn=0
 sendMode=NOTIFY
-servers/com.genuitec.eclipse.aeri.server/configured=true
-servers/org.eclipse.epp.logging.aeri.ide.server/configured=true

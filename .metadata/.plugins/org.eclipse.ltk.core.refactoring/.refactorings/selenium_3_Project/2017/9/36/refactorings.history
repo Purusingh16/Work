@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete 3 elements from project &apos;selenium_3_Project&apos;&#x0D;&#x0A;- Original project: &apos;selenium_3_Project&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     screenshot_pkg.Screenshot_Ashot_Demo.java&#x0D;&#x0A;     fullpagescreenshotsel3.png&#x0D;&#x0A;     ScreenshotName.png" description="Delete elements" element1="screenshot/ScreenshotName.png" element2="screenshot/fullpagescreenshotsel3.png" element3="/src&lt;screenshot_pkg{Screenshot_Ashot_Demo.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="2" stamp="1504885030589" subPackages="false" version="1.0"/>
-</session>

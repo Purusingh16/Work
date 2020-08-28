@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete element from project &apos;selenium_Learning&apos;&#x0D;&#x0A;- Original project: &apos;selenium_Learning&apos;&#x0D;&#x0A;- Original element: &apos;testNG5.DataProviderDemoOne.java&apos;" description="Delete element" element1="/src&lt;testNG5{DataProviderDemoOne.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1481436728478" subPackages="false" version="1.0"/>
-</session>

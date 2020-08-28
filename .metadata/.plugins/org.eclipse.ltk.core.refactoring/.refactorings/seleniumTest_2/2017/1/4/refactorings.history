@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;log4j2.xml&apos; to &apos;configs&apos;&#x0D;&#x0A;- Original project: &apos;seleniumTest_2&apos;&#x0D;&#x0A;- Destination element: &apos;configs&apos;&#x0D;&#x0A;- Original element: &apos;log4j2.xml&apos;" description="Copy file" element1="src/test/resources/configs/log4j2.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1485062162872" target="/SeleniumFrameWork/src/test/resources/configs" units="0" version="1.0"/>
-</session>

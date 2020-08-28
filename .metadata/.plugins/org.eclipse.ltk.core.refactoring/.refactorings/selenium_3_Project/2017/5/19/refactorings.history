@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;ScreenShot_Demo.java&apos; to &apos;selenium_3_Project/src/screenshot_pkg&apos;&#x0D;&#x0A;- Original project: &apos;selenium_3_Project&apos;&#x0D;&#x0A;- Destination element: &apos;selenium_3_Project/src/screenshot_pkg&apos;&#x0D;&#x0A;- Original element: &apos;demo.ScreenShot_Demo.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;screenshot_pkg" element1="/src&lt;demo{ScreenShot_Demo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1494496003250" units="1" version="1.0"/>
-</session>
