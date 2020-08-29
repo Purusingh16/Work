@@ -6,4 +6,91 @@ git remote -v
 git add .
 git commit -m "first commit"
 git push origin master
+git push -u origin master
 git help
+----------------------------------------
+pwd--working directory
+cd D:--move to diff drive
+mkdir gitProject--- making folder with gitproject name
+cd gitProject/---
+cd ..
+ls
+ls -a
+git init--> to provide/create an empty repository to our woorkspace so that version control is available to our working directory
+git ===> press enter
+=====================
+cat > a.txt
+git ls-files
+git log
+----------------------
+mv a.txt b.txt gitprojectcmd1---move one file to another folder
+--------
+git add a.txt b.txt
+git add .
+git add *.txt
+----------------
+if file is already tracked by git repository and for modified files
+git commit -a -m "mofified a.txt and b.txt"
+--------------------------------------------------
+shotcut command
+git init
+git add
+git commit
+git status
+git log
+--it shows history of all commits
+--commit Id
+--author name and mail id
+--timestamp
+--commit msg
+git ls-files
+ls
+git commit -a -m "commit msg"
+---------------------------------------
+for consis output
+git status -s
+---------------------------------------
+staging area ---> index area or cache area
+it is logical/virtual area but not physical area.
+
+1). to add all files in cwd
+	git add .
+2). to add particular files
+	git add a.txt b.txt
+3). to add even regular expression pattern also
+	git add *.java
+	git add *.txt
+-----------------------------------------------------
+command to count commit id----through git log and git commit -m command
+echo -n "commit ID" | wc -c
+ls -l---file permission mode
+------------------------------------------------------------------------
+git config:
+--git config command can be used for git configuration like user name, mail id etc
+--git config --list
+	to listout all git configuration
+git config --global user.name
+git config --global user.email
+---------------------------------
+git log:- provides detailed log information
+
+how to see log information of a particular file:
+----------------------------
+git log
+git log .
+git log file1.txt(for single file)
+
+git log --oneline(this option is very helpful if we have lot of commit and identify commit based on message) 
+-------------------------------------------------------------------------------------------------------------
+push an existing repository from the command line
+git remote add origin "git remote workspace URL"
+git push -u origin master
+
+
+
+
+
+
+
+
+
