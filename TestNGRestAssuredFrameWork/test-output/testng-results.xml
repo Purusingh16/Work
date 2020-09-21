@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="537" started-at="2020-09-09T05:50:29Z" finished-at="2020-09-09T05:50:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="537" started-at="2020-09-09T05:50:29Z" finished-at="2020-09-09T05:50:30Z">
+      <class name="com.cg.api.GetSingleData">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.cg.api.GetSingleData@2ef5e5e3]" name="init" is-config="true" duration-ms="2137" started-at="2020-09-09T11:20:27Z" finished-at="2020-09-09T11:20:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="checkData()[pri:0, instance:com.cg.api.GetSingleData@2ef5e5e3]" name="checkData" duration-ms="525" started-at="2020-09-09T11:20:29Z" description="Check entire data is present or not" finished-at="2020-09-09T11:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkData -->
+        <test-method status="PASS" signature="statusCheck()[pri:0, instance:com.cg.api.GetSingleData@2ef5e5e3]" name="statusCheck" duration-ms="1" started-at="2020-09-09T11:20:30Z" description="Check if status code is 200 or Not" finished-at="2020-09-09T11:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statusCheck -->
+      </class> <!-- com.cg.api.GetSingleData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

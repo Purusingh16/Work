@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.cg.api.PostDataDriven">
+        <methods>
+          <include name="checkPostResponseStatus"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.cg.api.PostDataDriven -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
